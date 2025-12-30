@@ -1,0 +1,494 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>员工管理系统</title>
+  <style>
+    * { margin: 0; padding: 0; box-sizing: border-box; font-family: "Microsoft YaHei", sans-serif; }
+    body { display: flex; height: 100vh; background-color: #f5f7fa; }
+    .sidebar { width: 15%; background: #2c3e50; color: white; padding: 20px 0; display: flex; flex-direction: column; }
+    .sidebar h1 { text-align: center; margin-bottom: 30px; font-size: 20px; }
+    .sidebar .tab { padding: 12px 20px; cursor: pointer; transition: background 0.2s; }
+    .sidebar .tab:hover, .sidebar .tab.active { background: #34495e; }
+    .main-content { width: 85%; padding: 20px; overflow-y: auto; }
+    .content-section { display: none; }
+    .content-section.active { display: block; }
+    .section-header { display: flex; justify-content: space-between; align-items: center; margin-bottom: 20px; }
+    button { padding: 6px 12px; background: #3498db; color: white; border: none; border-radius: 4px; cursor: pointer; }
+    button:hover { background: #2980b9; }
+    table { width: 100%; border-collapse: collapse; margin-top: 10px; }
+    th, td { padding: 12px; text-align: left; border-bottom: 1px solid #ddd; }
+    th { background: #ecf0f1; }
+    .status-btn { padding: 4px 12px; background: #2ecc71; color: white; border: none; border-radius: 4px; cursor: pointer; font-size: 14px; }
+    .status-btn.reversed { background: #e74c3c; }
+    .editable:hover { background-color: #fdf6e3; cursor: pointer; }
+    .editable input { width: 80px; padding: 4px; border: 1px solid #ccc; border-radius: 3px; }
+    .order-detail { background: #f9f9f9; padding: 12px; margin: 8px 0 16px 20px; border-left: 4px solid #3498db; display: none; }
+    .toggle-arrow { cursor: pointer; color: #3498db; font-weight: bold; margin-left: 10px; }
+    .modal { position: fixed; top: 0; left: 0; width: 100%; height: 100%; background: rgba(0,0,0,0.5); display: flex; justify-content: center; align-items: center; z-index: 1000; display: none; }
+    .modal-content { background: white; padding: 20px; border-radius: 8px; width: 400px; }
+    .modal h3 { margin-bottom: 15px; color: #2c3e50; }
+    .form-group { margin-bottom: 12px; }
+    .form-group label { display: block; margin-bottom: 4px; font-weight: bold; color: #34495e; }
+    .form-group input, .form-group select { width: 100%; padding: 8px; border: 1px solid #ccc; border-radius: 4px; }
+    .modal-buttons { text-align: right; margin-top: 15px; }
+    .editable-note { padding: 4px; min-width: 80px; display: inline-block; border: 1px dashed transparent; }
+    .editable-note:hover { border-color: #ccc; background: #fff9c4; }
+    .editable-note.editing { border: 1px solid #3498db; background: white; }
+    .switch { position: relative; display: inline-block; width: 48px; height: 22px; }
+    .switch input { opacity: 0; width: 0; height: 0; }
+    .slider { position: absolute; cursor: pointer; top: 0; left: 0; right: 0; bottom: 0; background-color: #ccc; transition: .4s; border-radius: 22px; }
+    .slider:before { position: absolute; content: ""; height: 16px; width: 16px; left: 3px; bottom: 3px; background-color: white; transition: .4s; border-radius: 50%; }
+    input:checked + .slider { background-color: #2ecc71; }
+    input:checked + .slider:before { transform: translateX(26px); }
+    .order-item { padding: 6px 0; border-bottom: 1px solid #eee; }
+    .order-item strong { color: #2980b9; }
+  </style>
+</head>
+<body>
+
+<div class="sidebar">
+  <h1>员工管理系统</h1>
+  <div class="tab active" data-tab="accounts">员工账户</div>
+  <div class="tab" data-tab="ordering">员工下单管理</div>
+  <div class="tab" data-tab="records">员工订单记录</div>
+  <div class="tab" data-tab="reports">员工报表</div>
+</div>
+
+<div class="main-content">
+  <div id="accounts" class="content-section active">
+    <div class="section-header">
+      <h2>员工账户</h2>
+      <button id="btn-add-employee">新增</button>
+    </div>
+    <table id="employee-table">
+      <thead><tr><th>员工账户</th><th>姓名</th><th>密码</th><th>入职日期</th><th>在职状态</th><th>操作</th></tr></thead>
+      <tbody></tbody>
+    </table>
+  </div>
+
+  <div id="ordering" class="content-section">
+    <h2>员工下单管理</h2>
+    <table id="ordering-table">
+      <thead><tr><th>员工账户</th><th>跟单方向</th><th>今日交易上限 (U)</th><th>是否链接该成员</th></tr></thead>
+      <tbody></tbody>
+    </table>
+  </div>
+
+  <div id="records" class="content-section">
+    <h2>员工订单记录</h2>
+    <div id="records-list"></div>
+  </div>
+
+  <div id="reports" class="content-section">
+    <h2>员工报表</h2>
+    <table id="report-table">
+      <thead><tr><th>员工账户</th><th>今日下单次数</th><th>今日收益（¥）</th><th>历史累计收益（¥）</th><th>备注</th></tr></thead>
+      <tbody></tbody>
+    </table>
+  </div>
+</div>
+
+<!-- 新增员工模态框 -->
+<div id="add-modal" class="modal">
+  <div class="modal-content">
+    <h3>新增员工账户</h3>
+    <div class="form-group">
+      <label>员工账户（登录用）</label>
+      <input type="text" id="new-username" placeholder="英文或数字，不可重复" />
+    </div>
+    <div class="form-group">
+      <label>姓名</label>
+      <input type="text" id="new-name" placeholder="张三" />
+    </div>
+    <div class="form-group">
+      <label>密码</label>
+      <input type="password" id="new-password" placeholder="至少6位" />
+    </div>
+    <div class="form-group">
+      <label>入职日期</label>
+      <input type="date" id="new-hire-date" />
+    </div>
+    <div class="form-group">
+      <label>在职状态</label>
+      <select id="new-status">
+        <option value="在职">在职</option>
+        <option value="离职">离职</option>
+        <option value="试用期">试用期</option>
+      </select>
+    </div>
+    <div class="modal-buttons">
+      <button id="modal-cancel">取消</button>
+      <button id="modal-confirm">确认</button>
+    </div>
+  </div>
+</div>
+
+<!-- 编辑员工模态框 -->
+<div id="edit-modal" class="modal">
+  <div class="modal-content">
+    <h3>编辑员工信息</h3>
+    <input type="hidden" id="edit-username" />
+    <div class="form-group">
+      <label>员工账户（不可修改）</label>
+      <input type="text" id="edit-username-display" disabled />
+    </div>
+    <div class="form-group">
+      <label>姓名</label>
+      <input type="text" id="edit-name" />
+    </div>
+    <div class="form-group">
+      <label>密码（留空则不修改）</label>
+      <input type="password" id="edit-password" placeholder="******" />
+    </div>
+    <div class="form-group">
+      <label>入职日期</label>
+      <input type="date" id="edit-hire-date" />
+    </div>
+    <div class="form-group">
+      <label>在职状态</label>
+      <select id="edit-status">
+        <option value="在职">在职</option>
+        <option value="离职">离职</option>
+        <option value="试用期">试用期</option>
+      </select>
+    </div>
+    <div class="modal-buttons">
+      <button id="edit-modal-cancel">取消</button>
+      <button id="edit-modal-confirm">保存</button>
+    </div>
+  </div>
+</div>
+
+<script>
+  async function api(url, options = {}) {
+    const defaultOptions = {
+      headers: { 'Content-Type': 'application/json' },
+      ...options
+    };
+    try {
+      const res = await fetch(`http://localhost:3001${url}`, defaultOptions);
+      if (!res.ok) {
+        const err = await res.json().catch(() => ({}));
+        throw new Error(err.error || `HTTP ${res.status}`);
+      }
+      return await res.json();
+    } catch (err) {
+      alert(`操作失败: ${err.message}`);
+      throw err;
+    }
+  }
+
+  let employees = [];
+  let reports = {};
+
+  // ======================
+  // 新增：按北京时间分组订单
+  // ======================
+  function groupOrdersByBeijingTime(orders) {
+    const now = new Date();
+    // 获取北京时间今日 00:00:00 对应的 UTC 时间戳
+    const beijingToday = new Date(now.toLocaleString("en-US", { timeZone: "Asia/Shanghai" }));
+    beijingToday.setHours(0, 0, 0, 0);
+    const todayStartUTC = beijingToday.getTime() - (8 * 3600 * 1000); // 转回 UTC
+
+    const today = [];
+    const history = [];
+
+    orders.forEach(order => {
+      if (order.timestamp >= todayStartUTC) {
+        today.push(order);
+      } else {
+        history.push(order);
+      }
+    });
+
+    return { today, history };
+  }
+
+  function renderRecords() {
+    const container = document.getElementById('records-list');
+    container.innerHTML = '';
+    employees.forEach(emp => {
+      const empDiv = document.createElement('div');
+      empDiv.style.marginBottom = '16px';
+      empDiv.innerHTML = `
+        <div>
+          <strong>${emp.name} (${emp.username})</strong>
+          <span class="toggle-arrow" onclick="toggleOrders('${emp.username}')">▼ 展开订单</span>
+        </div>
+        <div id="orders-${emp.username}" class="order-detail" style="display:none;"></div>
+      `;
+      container.appendChild(empDiv);
+
+      // 异步加载订单
+      loadAndRenderOrders(emp.username);
+    });
+  }
+
+  async function loadAndRenderOrders(username) {
+  try {
+    // ✅ 直接解构 today 和 history，无需再分组
+    const { today, history } = await api(`/internal/admin/orders?username=${username}`);
+    const container = document.getElementById(`orders-${username}`);
+    container.innerHTML = `
+      <div><strong>今日订单 (${today.length})</strong></div>
+      ${today.map(o => 
+        `<div class="order-item">[${new Date(o.timestamp).toLocaleString('zh-CN', { timeZone: 'Asia/Shanghai' })}] ${o.side} ${o.quantity} ${o.symbol} @ ${o.price}</div>`
+      ).join('')}
+      <div style="margin-top:12px;"><strong>历史订单 (${history.length})</strong></div>
+      ${history.map(o => 
+        `<div class="order-item">[${new Date(o.timestamp).toLocaleString('zh-CN', { timeZone: 'Asia/Shanghai' })}] ${o.side} ${o.quantity} ${o.symbol} @ ${o.price}</div>`
+      ).join('')}
+    `;
+  } catch (err) {
+    console.error('加载订单失败', err);
+    // 可选：显示错误占位
+    const container = document.getElementById(`orders-${username}`);
+    if (container) container.innerHTML = '<div style="color:red;">加载失败</div>';
+  }
+}
+
+  window.toggleOrders = function(username) {
+    const el = document.getElementById(`orders-${username}`);
+    el.style.display = el.style.display === 'none' ? 'block' : 'none';
+  };
+
+  // ======================
+  // 原有渲染函数（略作调整）
+  // ======================
+  function renderAccounts() {
+    const tbody = document.querySelector('#employee-table tbody');
+    tbody.innerHTML = '';
+    employees.forEach(emp => {
+      const row = document.createElement('tr');
+      row.innerHTML = `
+        <td>${emp.username}</td>
+        <td>${emp.name}</td>
+        <td>******</td>
+        <td>${emp.hireDate}</td>
+        <td>${emp.status}</td>
+        <td>
+          <button onclick="openEditModal('${emp.username}')">修改</button>
+          <button onclick="deleteEmployee('${emp.username}')">删除</button>
+        </td>
+      `;
+      tbody.appendChild(row);
+    });
+  }
+
+  function renderOrdering() {
+    const tbody = document.querySelector('#ordering-table tbody');
+    tbody.innerHTML = '';
+    employees.forEach(emp => {
+      const cls = emp.direction === '正' ? '' : 'reversed';
+      const row = document.createElement('tr');
+      row.innerHTML = `
+        <td>${emp.name} (${emp.username})</td>
+        <td><button class="status-btn ${cls}" onclick="toggleDirection('${emp.username}')">${emp.direction}</button></td>
+        <td class="editable" ondblclick="editLimit(this, '${emp.username}')">${emp.limitU}</td>
+        <td>
+          <label class="switch">
+            <input type="checkbox" ${emp.linked ? 'checked' : ''} onchange="toggleLink('${emp.username}', this.checked)">
+            <span class="slider"></span>
+          </label>
+        </td>
+      `;
+      tbody.appendChild(row);
+    });
+  }
+
+  function renderReports() {
+    const tbody = document.querySelector('#report-table tbody');
+    tbody.innerHTML = '';
+    employees.forEach(emp => {
+      const r = reports[emp.username] || { todayOrders: 0, todayIncome: 0, totalIncome: 0, note: '' };
+      const row = document.createElement('tr');
+      row.innerHTML = `
+        <td>${emp.username}</td>
+        <td>${r.todayOrders}</td>
+        <td>¥${r.todayIncome.toFixed(2)}</td>
+        <td>¥${r.totalIncome.toFixed(2)}</td>
+        <td><span class="editable-note" ondblclick="editNote(this, '${emp.username}')">${r.note || ''}</span></td>
+      `;
+      tbody.appendChild(row);
+    });
+  }
+
+  async function loadData() {
+    try {
+      employees = await api('/internal/admin/employees');
+      employees.forEach(emp => {
+        reports[emp.username] = { todayOrders: 0, todayIncome: 0, totalIncome: 0, note: '' };
+      });
+      renderAll();
+    } catch (err) {
+      console.error('加载失败', err);
+    }
+  }
+
+  function renderAll() {
+    renderAccounts();
+    renderOrdering();
+    renderRecords();
+    renderReports();
+  }
+
+  // 定时刷新订单（每10秒）
+  setInterval(() => {
+    if (document.querySelector('.tab[data-tab="records"].active')) {
+      renderRecords();
+    }
+  }, 10000);
+
+  // --- 员工操作 ---
+  window.openEditModal = function(username) {
+    const emp = employees.find(e => e.username === username);
+    if (!emp) return;
+    document.getElementById('edit-username').value = username;
+    document.getElementById('edit-username-display').value = username;
+    document.getElementById('edit-name').value = emp.name;
+    document.getElementById('edit-password').value = '';
+    document.getElementById('edit-hire-date').value = emp.hireDate;
+    document.getElementById('edit-status').value = emp.status;
+    document.getElementById('edit-modal').style.display = 'flex';
+  };
+
+  window.saveEdit = async function() {
+    const username = document.getElementById('edit-username').value;
+    const name = document.getElementById('edit-name').value.trim();
+    const newPass = document.getElementById('edit-password').value;
+    const hireDate = document.getElementById('edit-hire-date').value;
+    const status = document.getElementById('edit-status').value;
+
+    if (!name || !hireDate) return alert('姓名和入职日期必填');
+
+    const updates = { name, hireDate, status };
+    if (newPass) updates.password = newPass;
+
+    await api(`/internal/admin/employees/${username}`, { method: 'PUT', body: JSON.stringify(updates) });
+    document.getElementById('edit-modal').style.display = 'none';
+    loadData();
+  };
+
+  window.deleteEmployee = async function(username) {
+    if (!confirm('确定删除？')) return;
+    await api(`/internal/admin/employees/${username}`, { method: 'DELETE' });
+    loadData();
+  };
+
+  window.toggleDirection = async function(username) {
+    const emp = employees.find(e => e.username === username);
+    const newDir = emp.direction === '正' ? '反' : '正';
+    await api(`/internal/admin/employees/${username}/config`, {
+      method: 'PATCH',
+      body: JSON.stringify({ direction: newDir })
+    });
+    loadData();
+  };
+
+  window.toggleLink = async function(username, checked) {
+    await api(`/internal/admin/employees/${username}/config`, {
+      method: 'PATCH',
+      body: JSON.stringify({ linked: checked })
+    });
+    loadData();
+  };
+
+  window.editLimit = function(cell, username) {
+    if (cell.classList.contains('active')) return;
+    const emp = employees.find(e => e.username === username);
+    cell.classList.add('active');
+    cell.innerHTML = `<input type="number" min="0" value="${emp.limitU}" />`;
+    const input = cell.querySelector('input');
+    input.focus();
+    input.select();
+
+    const save = async () => {
+      const val = parseInt(input.value) || 0;
+      await api(`/internal/admin/employees/${username}/config`, {
+        method: 'PATCH',
+        body: JSON.stringify({ limitU: val })
+      });
+      cell.classList.remove('active');
+      loadData();
+    };
+
+    input.addEventListener('blur', save);
+    input.addEventListener('keydown', e => e.key === 'Enter' && save());
+  };
+
+  window.editNote = function(span, username) {
+    if (span.classList.contains('editing')) return;
+    const current = reports[username]?.note || '';
+    span.classList.add('editing');
+    span.innerHTML = `<input type="text" value="${current}" />`;
+    const input = span.querySelector('input');
+    input.focus();
+    input.select();
+
+    const save = async () => {
+      reports[username].note = input.value.trim();
+      span.classList.remove('editing');
+      span.textContent = reports[username].note;
+    };
+
+    input.addEventListener('blur', save);
+    input.addEventListener('keydown', e => e.key === 'Enter' && save());
+  };
+
+  // ======================
+  // 事件绑定
+  // ======================
+  document.getElementById('btn-add-employee').addEventListener('click', () => {
+    const now = new Date().toISOString().split('T')[0];
+    document.getElementById('new-hire-date').value = now;
+    document.getElementById('add-modal').style.display = 'flex';
+  });
+
+  document.getElementById('modal-cancel').onclick = () => {
+    document.getElementById('add-modal').style.display = 'none';
+  };
+
+  document.getElementById('modal-confirm').onclick = async () => {
+    const user = document.getElementById('new-username').value.trim();
+    const name = document.getElementById('new-name').value.trim();
+    const pwd = document.getElementById('new-password').value;
+    const hireDate = document.getElementById('new-hire-date').value;
+    const status = document.getElementById('new-status').value;
+
+    if (!user || !name || !pwd || !hireDate) return alert('所有字段必填');
+
+    await api('/internal/admin/employees', {
+      method: 'POST',
+      body: JSON.stringify({ username: user, name, password: pwd, hireDate, status })
+    });
+
+    document.getElementById('add-modal').style.display = 'none';
+    loadData();
+  };
+
+  document.getElementById('edit-modal-cancel').onclick = () => {
+    document.getElementById('edit-modal').style.display = 'none';
+  };
+
+  document.getElementById('edit-modal-confirm').onclick = window.saveEdit;
+
+  document.querySelectorAll('.tab').forEach(tab => {
+    tab.addEventListener('click', () => {
+      document.querySelectorAll('.tab').forEach(t => t.classList.remove('active'));
+      document.querySelectorAll('.content-section').forEach(sec => sec.classList.remove('active'));
+      tab.classList.add('active');
+      document.getElementById(tab.dataset.tab).classList.add('active');
+      if (tab.dataset.tab === 'records') {
+        renderRecords(); // 切换时立即刷新
+      }
+    });
+  });
+
+  loadData();
+</script>
+
+</body>
+</html>

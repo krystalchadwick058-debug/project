@@ -1,0 +1,125 @@
+/* =========================
+   全局 Hero 容器（核心）
+========================= */
+
+.hero {
+  position: relative;
+  width: 100%;
+  height: 100vh;
+  overflow: hidden;
+
+  /* 🌈 中轴舞台灯 + 深色环境 */
+  background:
+    radial-gradient(
+      35% 75% at 68% 0%,
+      rgba(160, 180, 255, 0.45),
+      transparent 70%
+    ),
+    radial-gradient(
+      80% 60% at 70% 35%,
+      rgba(110, 130, 255, 0.28),
+      transparent 65%
+    ),
+    linear-gradient(120deg, #05060c, #0a0f22 60%, #05060c);
+}
+
+/* =========================
+   Canvas：真正全屏、无框
+========================= */
+
+.hero-canvas {
+  position: absolute !important;
+  inset: 0;
+  width: 100%;
+  height: 100%;
+  z-index: 1;
+
+  /* 让 3D 融进背景 */
+  pointer-events: none;
+}
+
+/* =========================
+   顶部导航
+========================= */
+
+.nav {
+  position: relative;
+  z-index: 10;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 28px 72px;
+  color: white;
+}
+
+.nav nav a {
+  margin: 0 18px;
+  font-size: 14px;
+  color: rgba(255, 255, 255, 0.65);
+}
+
+.nav button {
+  background: linear-gradient(90deg, #7f5cff, #5f8cff);
+  border: none;
+  padding: 8px 20px;
+  border-radius: 999px;
+  color: white;
+  cursor: pointer;
+}
+
+/* =========================
+   左侧文案内容（悬浮）
+========================= */
+
+.content {
+  position: relative;
+  z-index: 10;
+  max-width: 520px;
+  margin-left: 96px;
+  margin-top: 180px;
+  color: white;
+}
+
+.content h1 {
+  font-size: 60px;
+  line-height: 1.08;
+  letter-spacing: -0.03em;
+  font-weight: 600;
+}
+
+.content p {
+  margin-top: 20px;
+  font-size: 16px;
+  color: #a9aed6;
+  max-width: 460px;
+}
+
+/* =========================
+   按钮
+========================= */
+
+.actions {
+  margin-top: 36px;
+}
+
+.primary {
+  background: linear-gradient(90deg, #7f5cff, #5f8cff);
+  border: none;
+  padding: 12px 30px;
+  border-radius: 999px;
+  color: white;
+  margin-right: 16px;
+  font-weight: 500;
+  cursor: pointer;
+  box-shadow: 0 10px 40px rgba(120, 140, 255, 0.45);
+}
+
+.ghost {
+  background: transparent;
+  border: 1px solid rgba(255, 255, 255, 0.28);
+  padding: 12px 30px;
+  border-radius: 999px;
+  color: white;
+  backdrop-filter: blur(8px);
+  cursor: pointer;
+}

@@ -1,0 +1,1262 @@
+{
+  "0GUSDT": {
+    "base": "0g"
+  },
+  "1INCHUSDT": {
+    "base": "1inch"
+  },
+  "2ZUSDT": {
+    "base": "2z"
+  },
+  "4USDT": {
+    "base": "4"
+  },
+  "币安人生USDT": {
+    "base": "币安人生"
+  },
+  "AAVEUSDT": {
+    "base": "aave"
+  },
+  "ACEUSDT": {
+    "base": "ace"
+  },
+  "ACHUSDT": {
+    "base": "ach"
+  },
+  "ACTUSDT": {
+    "base": "act"
+  },
+  "ACXUSDT": {
+    "base": "acx"
+  },
+  "ADAUSDT": {
+    "base": "ada"
+  },
+  "AERGOUSDT": {
+    "base": "aergo"
+  },
+  "AEROUSDT": {
+    "base": "aero"
+  },
+  "AEVOUSDT": {
+    "base": "aevo"
+  },
+  "AGLDUSDT": {
+    "base": "agld"
+  },
+  "AIOUSDT": {
+    "base": "aio"
+  },
+  "AIXBTUSDT": {
+    "base": "aixbt"
+  },
+  "AKTUSDT": {
+    "base": "akt"
+  },
+  "ALCHUSDT": {
+    "base": "alch"
+  },
+  "ALGOUSDT": {
+    "base": "algo"
+  },
+  "ALICEUSDT": {
+    "base": "alice"
+  },
+  "ALLOUSDT": {
+    "base": "allo"
+  },
+  "ALTUSDT": {
+    "base": "alt"
+  },
+  "ANIMEUSDT": {
+    "base": "anime"
+  },
+  "ANKRUSDT": {
+    "base": "ankr"
+  },
+  "APEUSDT": {
+    "base": "ape"
+  },
+  "API3USDT": {
+    "base": "api3"
+  },
+  "APRUSDT": {
+    "base": "apr"
+  },
+  "APTUSDT": {
+    "base": "apt"
+  },
+  "ARBUSDT": {
+    "base": "arb"
+  },
+  "ARCUSDT": {
+    "base": "arc"
+  },
+  "ARKMUSDT": {
+    "base": "arkm"
+  },
+  "ARKUSDT": {
+    "base": "ark"
+  },
+  "ARUSDT": {
+    "base": "ar"
+  },
+  "ASRUSDT": {
+    "base": "asr"
+  },
+  "ASTERUSDT": {
+    "base": "aster"
+  },
+  "ASTRUSDT": {
+    "base": "astr"
+  },
+  "ATHUSDT": {
+    "base": "ath"
+  },
+  "ATOMUSDT": {
+    "base": "atom"
+  },
+  "ATUSDT": {
+    "base": "at"
+  },
+  "AUCTIONUSDT": {
+    "base": "auction"
+  },
+  "AUSDT": {
+    "base": "a"
+  },
+  "AVAUSDT": {
+    "base": "ava"
+  },
+  "AVAXUSDT": {
+    "base": "avax"
+  },
+  "AVNTUSDT": {
+    "base": "avnt"
+  },
+  "AWEUSDT": {
+    "base": "awe"
+  },
+  "AXLUSDT": {
+    "base": "axl"
+  },
+  "AXSUSDT": {
+    "base": "axs"
+  },
+  "B2USDT": {
+    "base": "b2"
+  },
+  "B3USDT": {
+    "base": "b3"
+  },
+  "BABYUSDT": {
+    "base": "baby"
+  },
+  "BANANAS31USDT": {
+    "base": "bananas31"
+  },
+  "BANANAUSDT": {
+    "base": "banana"
+  },
+  "BANDUSDT": {
+    "base": "band"
+  },
+  "BANKUSDT": {
+    "base": "bank"
+  },
+  "BANUSDT": {
+    "base": "ban"
+  },
+  "BARDUSDT": {
+    "base": "bard"
+  },
+  "BATUSDT": {
+    "base": "bat"
+  },
+  "BBUSDT": {
+    "base": "bb"
+  },
+  "BCHUSDT": {
+    "base": "bch"
+  },
+  "BEATUSDT": {
+    "base": "beat"
+  },
+  "BERAUSDT": {
+    "base": "bera"
+  },
+  "BICOUSDT": {
+    "base": "bico"
+  },
+  "BIGTIMEUSDT": {
+    "base": "bigtime"
+  },
+  "BIOUSDT": {
+    "base": "bio"
+  },
+  "BLESSUSDT": {
+    "base": "bless"
+  },
+  "BLURUSDT": {
+    "base": "blur"
+  },
+  "BNBUSDT": {
+    "base": "bnb"
+  },
+  "BNTUSDT": {
+    "base": "bnt"
+  },
+  "BOBUSDT": {
+    "base": "bob"
+  },
+  "BOMEUSDT": {
+    "base": "bome"
+  },
+  "BRETTUSDT": {
+    "base": "brett"
+  },
+  "BSVUSDT": {
+    "base": "bsv"
+  },
+  "BTCUSDT": {
+    "base": "btc"
+  },
+  "BUSDT": {
+    "base": "b"
+  },
+  "C98USDT": {
+    "base": "c98"
+  },
+  "CAKEUSDT": {
+    "base": "cake"
+  },
+  "CARVUSDT": {
+    "base": "carv"
+  },
+  "CATIUSDT": {
+    "base": "cati"
+  },
+  "CCUSDT": {
+    "base": "cc"
+  },
+  "CELOUSDT": {
+    "base": "celo"
+  },
+  "CELRUSDT": {
+    "base": "celr"
+  },
+  "CETUSUSDT": {
+    "base": "cetus"
+  },
+  "CFXUSDT": {
+    "base": "cfx"
+  },
+  "CGPTUSDT": {
+    "base": "cgpt"
+  },
+  "CHILLGUYUSDT": {
+    "base": "chillguy"
+  },
+  "CHRUSDT": {
+    "base": "chr"
+  },
+  "CHZUSDT": {
+    "base": "chz"
+  },
+  "CKBUSDT": {
+    "base": "ckb"
+  },
+  "CLANKERUSDT": {
+    "base": "clanker"
+  },
+  "CLOUSDT": {
+    "base": "clo"
+  },
+  "COAIUSDT": {
+    "base": "coai"
+  },
+  "COMPUSDT": {
+    "base": "comp"
+  },
+  "COOKIEUSDT": {
+    "base": "cookie"
+  },
+  "COTIUSDT": {
+    "base": "coti"
+  },
+  "COWUSDT": {
+    "base": "cow"
+  },
+  "CROSSUSDT": {
+    "base": "cross"
+  },
+  "CRVUSDT": {
+    "base": "crv"
+  },
+  "CTKUSDT": {
+    "base": "ctk"
+  },
+  "CTSIUSDT": {
+    "base": "ctsi"
+  },
+  "CVCUSDT": {
+    "base": "cvc"
+  },
+  "CVXUSDT": {
+    "base": "cvx"
+  },
+  "CYBERUSDT": {
+    "base": "cyber"
+  },
+  "CYSUSDT": {
+    "base": "cys"
+  },
+  "DASHUSDT": {
+    "base": "dash"
+  },
+  "DEEPUSDT": {
+    "base": "deep"
+  },
+  "DEGENUSDT": {
+    "base": "degen"
+  },
+  "DENTUSDT": {
+    "base": "dent"
+  },
+  "DEXEUSDT": {
+    "base": "dexe"
+  },
+  "DIAUSDT": {
+    "base": "dia"
+  },
+  "DOGEUSDT": {
+    "base": "doge"
+  },
+  "DOGSUSDT": {
+    "base": "dogs"
+  },
+  "DOODUSDT": {
+    "base": "dood"
+  },
+  "DOTUSDT": {
+    "base": "dot"
+  },
+  "DRIFTUSDT": {
+    "base": "drift"
+  },
+  "DUSKUSDT": {
+    "base": "dusk"
+  },
+  "DYDXUSDT": {
+    "base": "dydx"
+  },
+  "DYMUSDT": {
+    "base": "dym"
+  },
+  "EDUUSDT": {
+    "base": "edu"
+  },
+  "EGLDUSDT": {
+    "base": "egld"
+  },
+  "EIGENUSDT": {
+    "base": "eigen"
+  },
+  "ENAUSDT": {
+    "base": "ena"
+  },
+  "ENJUSDT": {
+    "base": "enj"
+  },
+  "ENSUSDT": {
+    "base": "ens"
+  },
+  "EPICUSDT": {
+    "base": "epic"
+  },
+  "ERAUSDT": {
+    "base": "era"
+  },
+  "ESPORTSUSDT": {
+    "base": "esports"
+  },
+  "ETCUSDT": {
+    "base": "etc"
+  },
+  "ETHFIUSDT": {
+    "base": "ethfi"
+  },
+  "ETHUSDT": {
+    "base": "eth"
+  },
+  "ETHWUSDT": {
+    "base": "ethw"
+  },
+  "EULUSDT": {
+    "base": "eul"
+  },
+  "FARTCOINUSDT": {
+    "base": "fartcoin"
+  },
+  "FETUSDT": {
+    "base": "fet"
+  },
+  "FFUSDT": {
+    "base": "ff"
+  },
+  "FIDAUSDT": {
+    "base": "fida"
+  },
+  "FILUSDT": {
+    "base": "fil"
+  },
+  "FLOCKUSDT": {
+    "base": "flock"
+  },
+  "FLOWUSDT": {
+    "base": "flow"
+  },
+  "FLUIDUSDT": {
+    "base": "fluid"
+  },
+  "FLUXUSDT": {
+    "base": "flux"
+  },
+  "FOLKSUSDT": {
+    "base": "folks"
+  },
+  "FORMUSDT": {
+    "base": "form"
+  },
+  "FORTHUSDT": {
+    "base": "forth"
+  },
+  "FUNUSDT": {
+    "base": "fun"
+  },
+  "FUSDT": {
+    "base": "f"
+  },
+  "GALAUSDT": {
+    "base": "gala"
+  },
+  "GASUSDT": {
+    "base": "gas"
+  },
+  "GIGGLEUSDT": {
+    "base": "giggle"
+  },
+  "GLMUSDT": {
+    "base": "glm"
+  },
+  "GMTUSDT": {
+    "base": "gmt"
+  },
+  "GMXUSDT": {
+    "base": "gmx"
+  },
+  "GOATUSDT": {
+    "base": "goat"
+  },
+  "GPSUSDT": {
+    "base": "gps"
+  },
+  "GRASSUSDT": {
+    "base": "grass"
+  },
+  "GRIFFAINUSDT": {
+    "base": "griffain"
+  },
+  "GRTUSDT": {
+    "base": "grt"
+  },
+  "GUNUSDT": {
+    "base": "gun"
+  },
+  "GUSDT": {
+    "base": "g"
+  },
+  "HBARUSDT": {
+    "base": "hbar"
+  },
+  "HFTUSDT": {
+    "base": "hft"
+  },
+  "HIVEUSDT": {
+    "base": "hive"
+  },
+  "HOLOUSDT": {
+    "base": "holo"
+  },
+  "HOMEUSDT": {
+    "base": "home"
+  },
+  "HOTUSDT": {
+    "base": "hot"
+  },
+  "HUMAUSDT": {
+    "base": "huma"
+  },
+  "HUSDT": {
+    "base": "h"
+  },
+  "HYPERUSDT": {
+    "base": "hyper"
+  },
+  "HYPEUSDT": {
+    "base": "hype"
+  },
+  "ICNTUSDT": {
+    "base": "icnt"
+  },
+  "ICPUSDT": {
+    "base": "icp"
+  },
+  "ICXUSDT": {
+    "base": "icx"
+  },
+  "IDOLUSDT": {
+    "base": "idol"
+  },
+  "IDUSDT": {
+    "base": "id"
+  },
+  "ILVUSDT": {
+    "base": "ilv"
+  },
+  "IMXUSDT": {
+    "base": "imx"
+  },
+  "INJUSDT": {
+    "base": "inj"
+  },
+  "INUSDT": {
+    "base": "in"
+  },
+  "IOSTUSDT": {
+    "base": "iost"
+  },
+  "IOTAUSDT": {
+    "base": "iota"
+  },
+  "IOTXUSDT": {
+    "base": "iotx"
+  },
+  "IOUSDT": {
+    "base": "io"
+  },
+  "IPUSDT": {
+    "base": "ip"
+  },
+  "IRYSUSDT": {
+    "base": "irys"
+  },
+  "JASMYUSDT": {
+    "base": "jasmy"
+  },
+  "JCTUSDT": {
+    "base": "jct"
+  },
+  "JELLYJELLYUSDT": {
+    "base": "jellyjelly"
+  },
+  "JOEUSDT": {
+    "base": "joe"
+  },
+  "JSTUSDT": {
+    "base": "jst"
+  },
+  "JTOUSDT": {
+    "base": "jto"
+  },
+  "JUPUSDT": {
+    "base": "jup"
+  },
+  "KAIAUSDT": {
+    "base": "kaia"
+  },
+  "KAITOUSDT": {
+    "base": "kaito"
+  },
+  "KASUSDT": {
+    "base": "kas"
+  },
+  "KAVAUSDT": {
+    "base": "kava"
+  },
+  "KERNELUSDT": {
+    "base": "kernel"
+  },
+  "KGENUSDT": {
+    "base": "kgen"
+  },
+  "KITEUSDT": {
+    "base": "kite"
+  },
+  "KMNOUSDT": {
+    "base": "kmno"
+  },
+  "KNCUSDT": {
+    "base": "knc"
+  },
+  "KSMUSDT": {
+    "base": "ksm"
+  },
+  "LAUSDT": {
+    "base": "la"
+  },
+  "LAYERUSDT": {
+    "base": "layer"
+  },
+  "LDOUSDT": {
+    "base": "ldo"
+  },
+  "LIGHTUSDT": {
+    "base": "light"
+  },
+  "LINEAUSDT": {
+    "base": "linea"
+  },
+  "LINKUSDT": {
+    "base": "link"
+  },
+  "LISTAUSDT": {
+    "base": "lista"
+  },
+  "LPTUSDT": {
+    "base": "lpt"
+  },
+  "LQTYUSDT": {
+    "base": "lqty"
+  },
+  "LRCUSDT": {
+    "base": "lrc"
+  },
+  "LSKUSDT": {
+    "base": "lsk"
+  },
+  "LTCUSDT": {
+    "base": "ltc"
+  },
+  "LYNUSDT": {
+    "base": "lyn"
+  },
+  "MAGICUSDT": {
+    "base": "magic"
+  },
+  "MANAUSDT": {
+    "base": "mana"
+  },
+  "MANTAUSDT": {
+    "base": "manta"
+  },
+  "MASKUSDT": {
+    "base": "mask"
+  },
+  "MAVUSDT": {
+    "base": "mav"
+  },
+  "MELANIAUSDT": {
+    "base": "melania"
+  },
+  "MEMEUSDT": {
+    "base": "meme"
+  },
+  "MERLUSDT": {
+    "base": "merl"
+  },
+  "METISUSDT": {
+    "base": "metis"
+  },
+  "METUSDT": {
+    "base": "met"
+  },
+  "MEUSDT": {
+    "base": "me"
+  },
+  "MEWUSDT": {
+    "base": "mew"
+  },
+  "MINAUSDT": {
+    "base": "mina"
+  },
+  "MIRAUSDT": {
+    "base": "mira"
+  },
+  "MITOUSDT": {
+    "base": "mito"
+  },
+  "MMTUSDT": {
+    "base": "mmt"
+  },
+  "MOCAUSDT": {
+    "base": "moca"
+  },
+  "MONUSDT": {
+    "base": "mon"
+  },
+  "MOODENGUSDT": {
+    "base": "moodeng"
+  },
+  "MORPHOUSDT": {
+    "base": "morpho"
+  },
+  "MOVEUSDT": {
+    "base": "move"
+  },
+  "MOVRUSDT": {
+    "base": "movr"
+  },
+  "MTLUSDT": {
+    "base": "mtl"
+  },
+  "MUBARAKUSDT": {
+    "base": "mubarak"
+  },
+  "MUSDT": {
+    "base": "m"
+  },
+  "MYXUSDT": {
+    "base": "myx"
+  },
+  "NAORISUSDT": {
+    "base": "naoris"
+  },
+  "NEARUSDT": {
+    "base": "near"
+  },
+  "NEIROUSDT": {
+    "base": "neiro"
+  },
+  "NEOUSDT": {
+    "base": "neo"
+  },
+  "NEWTUSDT": {
+    "base": "newt"
+  },
+  "NIGHTUSDT": {
+    "base": "night"
+  },
+  "NILUSDT": {
+    "base": "nil"
+  },
+  "NMRUSDT": {
+    "base": "nmr"
+  },
+  "NOMUSDT": {
+    "base": "nom"
+  },
+  "NOTUSDT": {
+    "base": "not"
+  },
+  "NTRNUSDT": {
+    "base": "ntrn"
+  },
+  "NXPCUSDT": {
+    "base": "nxpc"
+  },
+  "OGNUSDT": {
+    "base": "ogn"
+  },
+  "OGUSDT": {
+    "base": "og"
+  },
+  "OMUSDT": {
+    "base": "om"
+  },
+  "ONDOUSDT": {
+    "base": "ondo"
+  },
+  "ONEUSDT": {
+    "base": "one"
+  },
+  "ONGUSDT": {
+    "base": "ong"
+  },
+  "ONTUSDT": {
+    "base": "ont"
+  },
+  "ONUSDT": {
+    "base": "on"
+  },
+  "OPENUSDT": {
+    "base": "open"
+  },
+  "OPUSDT": {
+    "base": "op"
+  },
+  "ORCAUSDT": {
+    "base": "orca"
+  },
+  "ORDERUSDT": {
+    "base": "order"
+  },
+  "ORDIUSDT": {
+    "base": "ordi"
+  },
+  "OXTUSDT": {
+    "base": "oxt"
+  },
+  "PARTIUSDT": {
+    "base": "parti"
+  },
+  "PAXGUSDT": {
+    "base": "paxg"
+  },
+  "PENDLEUSDT": {
+    "base": "pendle"
+  },
+  "PENGUUSDT": {
+    "base": "pengu"
+  },
+  "PEOPLEUSDT": {
+    "base": "people"
+  },
+  "PHAUSDT": {
+    "base": "pha"
+  },
+  "PHBUSDT": {
+    "base": "phb"
+  },
+  "PIEVERSEUSDT": {
+    "base": "pieverse"
+  },
+  "PIPPINUSDT": {
+    "base": "pippin"
+  },
+  "PLUMEUSDT": {
+    "base": "plume"
+  },
+  "PNUTUSDT": {
+    "base": "pnut"
+  },
+  "POLUSDT": {
+    "base": "pol"
+  },
+  "POLYXUSDT": {
+    "base": "polyx"
+  },
+  "POPCATUSDT": {
+    "base": "popcat"
+  },
+  "POWERUSDT": {
+    "base": "power"
+  },
+  "POWRUSDT": {
+    "base": "powr"
+  },
+  "PROMUSDT": {
+    "base": "prom"
+  },
+  "PROVEUSDT": {
+    "base": "prove"
+  },
+  "PUFFERUSDT": {
+    "base": "puffer"
+  },
+  "PUMPBTCUSDT": {
+    "base": "pumpbtc"
+  },
+  "PUMPUSDT": {
+    "base": "pump"
+  },
+  "PUNDIXUSDT": {
+    "base": "pundix"
+  },
+  "PYTHUSDT": {
+    "base": "pyth"
+  },
+  "QNTUSDT": {
+    "base": "qnt"
+  },
+  "QTUMUSDT": {
+    "base": "qtum"
+  },
+  "QUSDT": {
+    "base": "q"
+  },
+  "RAREUSDT": {
+    "base": "rare"
+  },
+  "RAVEUSDT": {
+    "base": "rave"
+  },
+  "RECALLUSDT": {
+    "base": "recall"
+  },
+  "REDUSDT": {
+    "base": "red"
+  },
+  "RENDERUSDT": {
+    "base": "render"
+  },
+  "RESOLVUSDT": {
+    "base": "resolv"
+  },
+  "REZUSDT": {
+    "base": "rez"
+  },
+  "RIFUSDT": {
+    "base": "rif"
+  },
+  "RIVERUSDT": {
+    "base": "river"
+  },
+  "RLCUSDT": {
+    "base": "rlc"
+  },
+  "RLSUSDT": {
+    "base": "rls"
+  },
+  "ROSEUSDT": {
+    "base": "rose"
+  },
+  "RPLUSDT": {
+    "base": "rpl"
+  },
+  "RSRUSDT": {
+    "base": "rsr"
+  },
+  "RUNEUSDT": {
+    "base": "rune"
+  },
+  "RVNUSDT": {
+    "base": "rvn"
+  },
+  "SAFEUSDT": {
+    "base": "safe"
+  },
+  "SAGAUSDT": {
+    "base": "saga"
+  },
+  "SAHARAUSDT": {
+    "base": "sahara"
+  },
+  "SANDUSDT": {
+    "base": "sand"
+  },
+  "SANTOSUSDT": {
+    "base": "santos"
+  },
+  "SAPIENUSDT": {
+    "base": "sapien"
+  },
+  "SCRTUSDT": {
+    "base": "scrt"
+  },
+  "SEIUSDT": {
+    "base": "sei"
+  },
+  "SFPUSDT": {
+    "base": "sfp"
+  },
+  "SIGNUSDT": {
+    "base": "sign"
+  },
+  "SIRENUSDT": {
+    "base": "siren"
+  },
+  "SKLUSDT": {
+    "base": "skl"
+  },
+  "SKYAIUSDT": {
+    "base": "skyai"
+  },
+  "SKYUSDT": {
+    "base": "sky"
+  },
+  "SLPUSDT": {
+    "base": "slp"
+  },
+  "SNXUSDT": {
+    "base": "snx"
+  },
+  "SOLUSDT": {
+    "base": "sol"
+  },
+  "SOLVUSDT": {
+    "base": "solv"
+  },
+  "SOMIUSDT": {
+    "base": "somi"
+  },
+  "SONICUSDT": {
+    "base": "sonic"
+  },
+  "SOONUSDT": {
+    "base": "soon"
+  },
+  "SOPHUSDT": {
+    "base": "soph"
+  },
+  "SPELLUSDT": {
+    "base": "spell"
+  },
+  "SPKUSDT": {
+    "base": "spk"
+  },
+  "SPXUSDT": {
+    "base": "spx"
+  },
+  "SQDUSDT": {
+    "base": "sqd"
+  },
+  "SSVUSDT": {
+    "base": "ssv"
+  },
+  "STABLEUSDT": {
+    "base": "stable"
+  },
+  "STBLUSDT": {
+    "base": "stbl"
+  },
+  "STEEMUSDT": {
+    "base": "steem"
+  },
+  "STGUSDT": {
+    "base": "stg"
+  },
+  "STORJUSDT": {
+    "base": "storj"
+  },
+  "STOUSDT": {
+    "base": "sto"
+  },
+  "STRKUSDT": {
+    "base": "strk"
+  },
+  "STXUSDT": {
+    "base": "stx"
+  },
+  "SUIUSDT": {
+    "base": "sui"
+  },
+  "SUNUSDT": {
+    "base": "sun"
+  },
+  "SUPERUSDT": {
+    "base": "super"
+  },
+  "SUSDT": {
+    "base": "s"
+  },
+  "SUSHIUSDT": {
+    "base": "sushi"
+  },
+  "SWARMSUSDT": {
+    "base": "swarms"
+  },
+  "SXTUSDT": {
+    "base": "sxt"
+  },
+  "SYRUPUSDT": {
+    "base": "syrup"
+  },
+  "TAGUSDT": {
+    "base": "tag"
+  },
+  "TAIKOUSDT": {
+    "base": "taiko"
+  },
+  "TAKEUSDT": {
+    "base": "take"
+  },
+  "TAOUSDT": {
+    "base": "tao"
+  },
+  "THETAUSDT": {
+    "base": "theta"
+  },
+  "THEUSDT": {
+    "base": "the"
+  },
+  "TIAUSDT": {
+    "base": "tia"
+  },
+  "TNSRUSDT": {
+    "base": "tnsr"
+  },
+  "TONUSDT": {
+    "base": "ton"
+  },
+  "TOSHIUSDT": {
+    "base": "toshi"
+  },
+  "TRADOORUSDT": {
+    "base": "tradoor"
+  },
+  "TRBUSDT": {
+    "base": "trb"
+  },
+  "TREEUSDT": {
+    "base": "tree"
+  },
+  "TRUMPUSDT": {
+    "base": "trump"
+  },
+  "TRUSTUSDT": {
+    "base": "trust"
+  },
+  "TRUTHUSDT": {
+    "base": "truth"
+  },
+  "TRXUSDT": {
+    "base": "trx"
+  },
+  "TURBOUSDT": {
+    "base": "turbo"
+  },
+  "TUSDT": {
+    "base": "t"
+  },
+  "TWTUSDT": {
+    "base": "twt"
+  },
+  "UAIUSDT": {
+    "base": "uai"
+  },
+  "UBUSDT": {
+    "base": "ub"
+  },
+  "UMAUSDT": {
+    "base": "uma"
+  },
+  "UNIUSDT": {
+    "base": "uni"
+  },
+  "USDCUSDT": {
+    "base": "usdc"
+  },
+  "USELESSUSDT": {
+    "base": "useless"
+  },
+  "USTCUSDT": {
+    "base": "ustc"
+  },
+  "USUALUSDT": {
+    "base": "usual"
+  },
+  "USUSDT": {
+    "base": "us"
+  },
+  "VANAUSDT": {
+    "base": "vana"
+  },
+  "VELVETUSDT": {
+    "base": "velvet"
+  },
+  "VETUSDT": {
+    "base": "vet"
+  },
+  "VINEUSDT": {
+    "base": "vine"
+  },
+  "VIRTUALUSDT": {
+    "base": "virtual"
+  },
+  "VTHOUSDT": {
+    "base": "vtho"
+  },
+  "VVVUSDT": {
+    "base": "vvv"
+  },
+  "WALUSDT": {
+    "base": "wal"
+  },
+  "WAXPUSDT": {
+    "base": "waxp"
+  },
+  "WETUSDT": {
+    "base": "wet"
+  },
+  "WIFUSDT": {
+    "base": "wif"
+  },
+  "WLDUSDT": {
+    "base": "wld"
+  },
+  "WLFIUSDT": {
+    "base": "wlfi"
+  },
+  "WOOUSDT": {
+    "base": "woo"
+  },
+  "WUSDT": {
+    "base": "w"
+  },
+  "XAIUSDT": {
+    "base": "xai"
+  },
+  "XANUSDT": {
+    "base": "xan"
+  },
+  "XLMUSDT": {
+    "base": "xlm"
+  },
+  "XMRUSDT": {
+    "base": "xmr"
+  },
+  "XPINUSDT": {
+    "base": "xpin"
+  },
+  "XPLUSDT": {
+    "base": "xpl"
+  },
+  "XRPUSDT": {
+    "base": "xrp"
+  },
+  "XTZUSDT": {
+    "base": "xtz"
+  },
+  "XVGUSDT": {
+    "base": "xvg"
+  },
+  "XVSUSDT": {
+    "base": "xvs"
+  },
+  "YBUSDT": {
+    "base": "yb"
+  },
+  "YFIUSDT": {
+    "base": "yfi"
+  },
+  "YGGUSDT": {
+    "base": "ygg"
+  },
+  "ZBTUSDT": {
+    "base": "zbt"
+  },
+  "ZECUSDT": {
+    "base": "zec"
+  },
+  "ZENUSDT": {
+    "base": "zen"
+  },
+  "ZEREBROUSDT": {
+    "base": "zerebro"
+  },
+  "ZETAUSDT": {
+    "base": "zeta"
+  },
+  "ZILUSDT": {
+    "base": "zil"
+  },
+  "ZKCUSDT": {
+    "base": "zkc"
+  },
+  "ZKJUSDT": {
+    "base": "zkj"
+  },
+  "ZKUSDT": {
+    "base": "zk"
+  },
+  "ZORAUSDT": {
+    "base": "zora"
+  },
+  "ZROUSDT": {
+    "base": "zro"
+  },
+  "ZRXUSDT": {
+    "base": "zrx"
+  }
+}
