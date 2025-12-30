@@ -1,0 +1,2657 @@
+[
+  {
+    "symbol": "0GUSDT",
+    "base": "0g",
+    "quote": "USDT"
+  },
+  {
+    "symbol": "1000000BOBUSDT",
+    "base": "1000000bob",
+    "quote": "USDT"
+  },
+  {
+    "symbol": "1000000MOGUSDT",
+    "base": "1000000mog",
+    "quote": "USDT"
+  },
+  {
+    "symbol": "1000BONKUSDT",
+    "base": "1000bonk",
+    "quote": "USDT"
+  },
+  {
+    "symbol": "1000CATUSDT",
+    "base": "1000cat",
+    "quote": "USDT"
+  },
+  {
+    "symbol": "1000CHEEMSUSDT",
+    "base": "1000cheems",
+    "quote": "USDT"
+  },
+  {
+    "symbol": "1000FLOKIUSDT",
+    "base": "1000floki",
+    "quote": "USDT"
+  },
+  {
+    "symbol": "1000LUNCUSDT",
+    "base": "1000lunc",
+    "quote": "USDT"
+  },
+  {
+    "symbol": "1000PEPEUSDT",
+    "base": "1000pepe",
+    "quote": "USDT"
+  },
+  {
+    "symbol": "1000RATSUSDT",
+    "base": "1000rats",
+    "quote": "USDT"
+  },
+  {
+    "symbol": "1000SATSUSDT",
+    "base": "1000sats",
+    "quote": "USDT"
+  },
+  {
+    "symbol": "1000SHIBUSDT",
+    "base": "1000shib",
+    "quote": "USDT"
+  },
+  {
+    "symbol": "1000WHYUSDT",
+    "base": "1000why",
+    "quote": "USDT"
+  },
+  {
+    "symbol": "1000XECUSDT",
+    "base": "1000xec",
+    "quote": "USDT"
+  },
+  {
+    "symbol": "1INCHUSDT",
+    "base": "1inch",
+    "quote": "USDT"
+  },
+  {
+    "symbol": "1MBABYDOGEUSDT",
+    "base": "1mbabydoge",
+    "quote": "USDT"
+  },
+  {
+    "symbol": "2ZUSDT",
+    "base": "2z",
+    "quote": "USDT"
+  },
+  {
+    "symbol": "42USDT",
+    "base": "42",
+    "quote": "USDT"
+  },
+  {
+    "symbol": "4USDT",
+    "base": "4",
+    "quote": "USDT"
+  },
+  {
+    "symbol": "币安人生USDT",
+    "base": "币安人生",
+    "quote": "USDT"
+  },
+  {
+    "symbol": "A2ZUSDT",
+    "base": "a2z",
+    "quote": "USDT"
+  },
+  {
+    "symbol": "AAVEUSDT",
+    "base": "aave",
+    "quote": "USDT"
+  },
+  {
+    "symbol": "ACEUSDT",
+    "base": "ace",
+    "quote": "USDT"
+  },
+  {
+    "symbol": "ACHUSDT",
+    "base": "ach",
+    "quote": "USDT"
+  },
+  {
+    "symbol": "ACTUSDT",
+    "base": "act",
+    "quote": "USDT"
+  },
+  {
+    "symbol": "ACXUSDT",
+    "base": "acx",
+    "quote": "USDT"
+  },
+  {
+    "symbol": "ADAUSDT",
+    "base": "ada",
+    "quote": "USDT"
+  },
+  {
+    "symbol": "AERGOUSDT",
+    "base": "aergo",
+    "quote": "USDT"
+  },
+  {
+    "symbol": "AEROUSDT",
+    "base": "aero",
+    "quote": "USDT"
+  },
+  {
+    "symbol": "AEVOUSDT",
+    "base": "aevo",
+    "quote": "USDT"
+  },
+  {
+    "symbol": "AGLDUSDT",
+    "base": "agld",
+    "quote": "USDT"
+  },
+  {
+    "symbol": "AGTUSDT",
+    "base": "agt",
+    "quote": "USDT"
+  },
+  {
+    "symbol": "AINUSDT",
+    "base": "ain",
+    "quote": "USDT"
+  },
+  {
+    "symbol": "AIOTUSDT",
+    "base": "aiot",
+    "quote": "USDT"
+  },
+  {
+    "symbol": "AIOUSDT",
+    "base": "aio",
+    "quote": "USDT"
+  },
+  {
+    "symbol": "AIUSDT",
+    "base": "ai",
+    "quote": "USDT"
+  },
+  {
+    "symbol": "AIXBTUSDT",
+    "base": "aixbt",
+    "quote": "USDT"
+  },
+  {
+    "symbol": "AKEUSDT",
+    "base": "ake",
+    "quote": "USDT"
+  },
+  {
+    "symbol": "AKTUSDT",
+    "base": "akt",
+    "quote": "USDT"
+  },
+  {
+    "symbol": "ALCHUSDT",
+    "base": "alch",
+    "quote": "USDT"
+  },
+  {
+    "symbol": "ALGOUSDT",
+    "base": "algo",
+    "quote": "USDT"
+  },
+  {
+    "symbol": "ALICEUSDT",
+    "base": "alice",
+    "quote": "USDT"
+  },
+  {
+    "symbol": "ALLOUSDT",
+    "base": "allo",
+    "quote": "USDT"
+  },
+  {
+    "symbol": "ALLUSDT",
+    "base": "all",
+    "quote": "USDT"
+  },
+  {
+    "symbol": "ALPINEUSDT",
+    "base": "alpine",
+    "quote": "USDT"
+  },
+  {
+    "symbol": "ALTUSDT",
+    "base": "alt",
+    "quote": "USDT"
+  },
+  {
+    "symbol": "ANIMEUSDT",
+    "base": "anime",
+    "quote": "USDT"
+  },
+  {
+    "symbol": "ANKRUSDT",
+    "base": "ankr",
+    "quote": "USDT"
+  },
+  {
+    "symbol": "APEUSDT",
+    "base": "ape",
+    "quote": "USDT"
+  },
+  {
+    "symbol": "API3USDT",
+    "base": "api3",
+    "quote": "USDT"
+  },
+  {
+    "symbol": "APRUSDT",
+    "base": "apr",
+    "quote": "USDT"
+  },
+  {
+    "symbol": "APTUSDT",
+    "base": "apt",
+    "quote": "USDT"
+  },
+  {
+    "symbol": "ARBUSDT",
+    "base": "arb",
+    "quote": "USDT"
+  },
+  {
+    "symbol": "ARCUSDT",
+    "base": "arc",
+    "quote": "USDT"
+  },
+  {
+    "symbol": "ARIAUSDT",
+    "base": "aria",
+    "quote": "USDT"
+  },
+  {
+    "symbol": "ARKMUSDT",
+    "base": "arkm",
+    "quote": "USDT"
+  },
+  {
+    "symbol": "ARKUSDT",
+    "base": "ark",
+    "quote": "USDT"
+  },
+  {
+    "symbol": "ARPAUSDT",
+    "base": "arpa",
+    "quote": "USDT"
+  },
+  {
+    "symbol": "ARUSDT",
+    "base": "ar",
+    "quote": "USDT"
+  },
+  {
+    "symbol": "ASRUSDT",
+    "base": "asr",
+    "quote": "USDT"
+  },
+  {
+    "symbol": "ASTERUSDT",
+    "base": "aster",
+    "quote": "USDT"
+  },
+  {
+    "symbol": "ASTRUSDT",
+    "base": "astr",
+    "quote": "USDT"
+  },
+  {
+    "symbol": "ATAUSDT",
+    "base": "ata",
+    "quote": "USDT"
+  },
+  {
+    "symbol": "ATHUSDT",
+    "base": "ath",
+    "quote": "USDT"
+  },
+  {
+    "symbol": "ATOMUSDT",
+    "base": "atom",
+    "quote": "USDT"
+  },
+  {
+    "symbol": "ATUSDT",
+    "base": "at",
+    "quote": "USDT"
+  },
+  {
+    "symbol": "AUCTIONUSDT",
+    "base": "auction",
+    "quote": "USDT"
+  },
+  {
+    "symbol": "AUSDT",
+    "base": "a",
+    "quote": "USDT"
+  },
+  {
+    "symbol": "AVAAIUSDT",
+    "base": "avaai",
+    "quote": "USDT"
+  },
+  {
+    "symbol": "AVAUSDT",
+    "base": "ava",
+    "quote": "USDT"
+  },
+  {
+    "symbol": "AVAXUSDT",
+    "base": "avax",
+    "quote": "USDT"
+  },
+  {
+    "symbol": "AVNTUSDT",
+    "base": "avnt",
+    "quote": "USDT"
+  },
+  {
+    "symbol": "AWEUSDT",
+    "base": "awe",
+    "quote": "USDT"
+  },
+  {
+    "symbol": "AXLUSDT",
+    "base": "axl",
+    "quote": "USDT"
+  },
+  {
+    "symbol": "AXSUSDT",
+    "base": "axs",
+    "quote": "USDT"
+  },
+  {
+    "symbol": "B2USDT",
+    "base": "b2",
+    "quote": "USDT"
+  },
+  {
+    "symbol": "B3USDT",
+    "base": "b3",
+    "quote": "USDT"
+  },
+  {
+    "symbol": "BABYUSDT",
+    "base": "baby",
+    "quote": "USDT"
+  },
+  {
+    "symbol": "BANANAS31USDT",
+    "base": "bananas31",
+    "quote": "USDT"
+  },
+  {
+    "symbol": "BANANAUSDT",
+    "base": "banana",
+    "quote": "USDT"
+  },
+  {
+    "symbol": "BANDUSDT",
+    "base": "band",
+    "quote": "USDT"
+  },
+  {
+    "symbol": "BANKUSDT",
+    "base": "bank",
+    "quote": "USDT"
+  },
+  {
+    "symbol": "BANUSDT",
+    "base": "ban",
+    "quote": "USDT"
+  },
+  {
+    "symbol": "BARDUSDT",
+    "base": "bard",
+    "quote": "USDT"
+  },
+  {
+    "symbol": "BASUSDT",
+    "base": "bas",
+    "quote": "USDT"
+  },
+  {
+    "symbol": "BATUSDT",
+    "base": "bat",
+    "quote": "USDT"
+  },
+  {
+    "symbol": "BBUSDT",
+    "base": "bb",
+    "quote": "USDT"
+  },
+  {
+    "symbol": "BCHUSDT",
+    "base": "bch",
+    "quote": "USDT"
+  },
+  {
+    "symbol": "BDXNUSDT",
+    "base": "bdxn",
+    "quote": "USDT"
+  },
+  {
+    "symbol": "BEAMXUSDT",
+    "base": "beamx",
+    "quote": "USDT"
+  },
+  {
+    "symbol": "BEATUSDT",
+    "base": "beat",
+    "quote": "USDT"
+  },
+  {
+    "symbol": "BELUSDT",
+    "base": "bel",
+    "quote": "USDT"
+  },
+  {
+    "symbol": "BERAUSDT",
+    "base": "bera",
+    "quote": "USDT"
+  },
+  {
+    "symbol": "BICOUSDT",
+    "base": "bico",
+    "quote": "USDT"
+  },
+  {
+    "symbol": "BIDUSDT",
+    "base": "bid",
+    "quote": "USDT"
+  },
+  {
+    "symbol": "BIGTIMEUSDT",
+    "base": "bigtime",
+    "quote": "USDT"
+  },
+  {
+    "symbol": "BIOUSDT",
+    "base": "bio",
+    "quote": "USDT"
+  },
+  {
+    "symbol": "BLESSUSDT",
+    "base": "bless",
+    "quote": "USDT"
+  },
+  {
+    "symbol": "BLUAIUSDT",
+    "base": "bluai",
+    "quote": "USDT"
+  },
+  {
+    "symbol": "BLURUSDT",
+    "base": "blur",
+    "quote": "USDT"
+  },
+  {
+    "symbol": "BMTUSDT",
+    "base": "bmt",
+    "quote": "USDT"
+  },
+  {
+    "symbol": "BNBUSDT",
+    "base": "bnb",
+    "quote": "USDT"
+  },
+  {
+    "symbol": "BNTUSDT",
+    "base": "bnt",
+    "quote": "USDT"
+  },
+  {
+    "symbol": "BOBUSDT",
+    "base": "bob",
+    "quote": "USDT"
+  },
+  {
+    "symbol": "BOMEUSDT",
+    "base": "bome",
+    "quote": "USDT"
+  },
+  {
+    "symbol": "BRETTUSDT",
+    "base": "brett",
+    "quote": "USDT"
+  },
+  {
+    "symbol": "BROCCOLI714USDT",
+    "base": "broccoli714",
+    "quote": "USDT"
+  },
+  {
+    "symbol": "BROCCOLIF3BUSDT",
+    "base": "broccolif3b",
+    "quote": "USDT"
+  },
+  {
+    "symbol": "BRUSDT",
+    "base": "br",
+    "quote": "USDT"
+  },
+  {
+    "symbol": "BSVUSDT",
+    "base": "bsv",
+    "quote": "USDT"
+  },
+  {
+    "symbol": "BTCDOMUSDT",
+    "base": "btcdom",
+    "quote": "USDT"
+  },
+  {
+    "symbol": "BTCUSDT",
+    "base": "btc",
+    "quote": "USDT"
+  },
+  {
+    "symbol": "BTRUSDT",
+    "base": "btr",
+    "quote": "USDT"
+  },
+  {
+    "symbol": "BULLAUSDT",
+    "base": "bulla",
+    "quote": "USDT"
+  },
+  {
+    "symbol": "BUSDT",
+    "base": "b",
+    "quote": "USDT"
+  },
+  {
+    "symbol": "C98USDT",
+    "base": "c98",
+    "quote": "USDT"
+  },
+  {
+    "symbol": "CAKEUSDT",
+    "base": "cake",
+    "quote": "USDT"
+  },
+  {
+    "symbol": "CARVUSDT",
+    "base": "carv",
+    "quote": "USDT"
+  },
+  {
+    "symbol": "CATIUSDT",
+    "base": "cati",
+    "quote": "USDT"
+  },
+  {
+    "symbol": "CCUSDT",
+    "base": "cc",
+    "quote": "USDT"
+  },
+  {
+    "symbol": "CELOUSDT",
+    "base": "celo",
+    "quote": "USDT"
+  },
+  {
+    "symbol": "CELRUSDT",
+    "base": "celr",
+    "quote": "USDT"
+  },
+  {
+    "symbol": "CETUSUSDT",
+    "base": "cetus",
+    "quote": "USDT"
+  },
+  {
+    "symbol": "CFXUSDT",
+    "base": "cfx",
+    "quote": "USDT"
+  },
+  {
+    "symbol": "CGPTUSDT",
+    "base": "cgpt",
+    "quote": "USDT"
+  },
+  {
+    "symbol": "CHESSUSDT",
+    "base": "chess",
+    "quote": "USDT"
+  },
+  {
+    "symbol": "CHILLGUYUSDT",
+    "base": "chillguy",
+    "quote": "USDT"
+  },
+  {
+    "symbol": "CHRUSDT",
+    "base": "chr",
+    "quote": "USDT"
+  },
+  {
+    "symbol": "CHZUSDT",
+    "base": "chz",
+    "quote": "USDT"
+  },
+  {
+    "symbol": "CKBUSDT",
+    "base": "ckb",
+    "quote": "USDT"
+  },
+  {
+    "symbol": "CLANKERUSDT",
+    "base": "clanker",
+    "quote": "USDT"
+  },
+  {
+    "symbol": "CLOUSDT",
+    "base": "clo",
+    "quote": "USDT"
+  },
+  {
+    "symbol": "COAIUSDT",
+    "base": "coai",
+    "quote": "USDT"
+  },
+  {
+    "symbol": "COMMONUSDT",
+    "base": "common",
+    "quote": "USDT"
+  },
+  {
+    "symbol": "COMPUSDT",
+    "base": "comp",
+    "quote": "USDT"
+  },
+  {
+    "symbol": "COOKIEUSDT",
+    "base": "cookie",
+    "quote": "USDT"
+  },
+  {
+    "symbol": "COSUSDT",
+    "base": "cos",
+    "quote": "USDT"
+  },
+  {
+    "symbol": "COTIUSDT",
+    "base": "coti",
+    "quote": "USDT"
+  },
+  {
+    "symbol": "COWUSDT",
+    "base": "cow",
+    "quote": "USDT"
+  },
+  {
+    "symbol": "CROSSUSDT",
+    "base": "cross",
+    "quote": "USDT"
+  },
+  {
+    "symbol": "CRVUSDT",
+    "base": "crv",
+    "quote": "USDT"
+  },
+  {
+    "symbol": "CTKUSDT",
+    "base": "ctk",
+    "quote": "USDT"
+  },
+  {
+    "symbol": "CTSIUSDT",
+    "base": "ctsi",
+    "quote": "USDT"
+  },
+  {
+    "symbol": "CUDISUSDT",
+    "base": "cudis",
+    "quote": "USDT"
+  },
+  {
+    "symbol": "CUSDT",
+    "base": "c",
+    "quote": "USDT"
+  },
+  {
+    "symbol": "CVCUSDT",
+    "base": "cvc",
+    "quote": "USDT"
+  },
+  {
+    "symbol": "CVXUSDT",
+    "base": "cvx",
+    "quote": "USDT"
+  },
+  {
+    "symbol": "CYBERUSDT",
+    "base": "cyber",
+    "quote": "USDT"
+  },
+  {
+    "symbol": "CYSUSDT",
+    "base": "cys",
+    "quote": "USDT"
+  },
+  {
+    "symbol": "DAMUSDT",
+    "base": "dam",
+    "quote": "USDT"
+  },
+  {
+    "symbol": "DASHUSDT",
+    "base": "dash",
+    "quote": "USDT"
+  },
+  {
+    "symbol": "DEEPUSDT",
+    "base": "deep",
+    "quote": "USDT"
+  },
+  {
+    "symbol": "DEGENUSDT",
+    "base": "degen",
+    "quote": "USDT"
+  },
+  {
+    "symbol": "DEGOUSDT",
+    "base": "dego",
+    "quote": "USDT"
+  },
+  {
+    "symbol": "DENTUSDT",
+    "base": "dent",
+    "quote": "USDT"
+  },
+  {
+    "symbol": "DEXEUSDT",
+    "base": "dexe",
+    "quote": "USDT"
+  },
+  {
+    "symbol": "DFUSDT",
+    "base": "df",
+    "quote": "USDT"
+  },
+  {
+    "symbol": "DIAUSDT",
+    "base": "dia",
+    "quote": "USDT"
+  },
+  {
+    "symbol": "DMCUSDT",
+    "base": "dmc",
+    "quote": "USDT"
+  },
+  {
+    "symbol": "DODOXUSDT",
+    "base": "dodox",
+    "quote": "USDT"
+  },
+  {
+    "symbol": "DOGEUSDT",
+    "base": "doge",
+    "quote": "USDT"
+  },
+  {
+    "symbol": "DOGSUSDT",
+    "base": "dogs",
+    "quote": "USDT"
+  },
+  {
+    "symbol": "DOLOUSDT",
+    "base": "dolo",
+    "quote": "USDT"
+  },
+  {
+    "symbol": "DOODUSDT",
+    "base": "dood",
+    "quote": "USDT"
+  },
+  {
+    "symbol": "DOTUSDT",
+    "base": "dot",
+    "quote": "USDT"
+  },
+  {
+    "symbol": "DRIFTUSDT",
+    "base": "drift",
+    "quote": "USDT"
+  },
+  {
+    "symbol": "DUSDT",
+    "base": "d",
+    "quote": "USDT"
+  },
+  {
+    "symbol": "DUSKUSDT",
+    "base": "dusk",
+    "quote": "USDT"
+  },
+  {
+    "symbol": "DYDXUSDT",
+    "base": "dydx",
+    "quote": "USDT"
+  },
+  {
+    "symbol": "DYMUSDT",
+    "base": "dym",
+    "quote": "USDT"
+  },
+  {
+    "symbol": "EDENUSDT",
+    "base": "eden",
+    "quote": "USDT"
+  },
+  {
+    "symbol": "EDUUSDT",
+    "base": "edu",
+    "quote": "USDT"
+  },
+  {
+    "symbol": "EGLDUSDT",
+    "base": "egld",
+    "quote": "USDT"
+  },
+  {
+    "symbol": "EIGENUSDT",
+    "base": "eigen",
+    "quote": "USDT"
+  },
+  {
+    "symbol": "ENAUSDT",
+    "base": "ena",
+    "quote": "USDT"
+  },
+  {
+    "symbol": "ENJUSDT",
+    "base": "enj",
+    "quote": "USDT"
+  },
+  {
+    "symbol": "ENSOUSDT",
+    "base": "enso",
+    "quote": "USDT"
+  },
+  {
+    "symbol": "ENSUSDT",
+    "base": "ens",
+    "quote": "USDT"
+  },
+  {
+    "symbol": "EPICUSDT",
+    "base": "epic",
+    "quote": "USDT"
+  },
+  {
+    "symbol": "EPTUSDT",
+    "base": "ept",
+    "quote": "USDT"
+  },
+  {
+    "symbol": "ERAUSDT",
+    "base": "era",
+    "quote": "USDT"
+  },
+  {
+    "symbol": "ESPORTSUSDT",
+    "base": "esports",
+    "quote": "USDT"
+  },
+  {
+    "symbol": "ETCUSDT",
+    "base": "etc",
+    "quote": "USDT"
+  },
+  {
+    "symbol": "ETHFIUSDT",
+    "base": "ethfi",
+    "quote": "USDT"
+  },
+  {
+    "symbol": "ETHUSDT",
+    "base": "eth",
+    "quote": "USDT"
+  },
+  {
+    "symbol": "ETHWUSDT",
+    "base": "ethw",
+    "quote": "USDT"
+  },
+  {
+    "symbol": "EULUSDT",
+    "base": "eul",
+    "quote": "USDT"
+  },
+  {
+    "symbol": "EVAAUSDT",
+    "base": "evaa",
+    "quote": "USDT"
+  },
+  {
+    "symbol": "FARTCOINUSDT",
+    "base": "fartcoin",
+    "quote": "USDT"
+  },
+  {
+    "symbol": "FETUSDT",
+    "base": "fet",
+    "quote": "USDT"
+  },
+  {
+    "symbol": "FFUSDT",
+    "base": "ff",
+    "quote": "USDT"
+  },
+  {
+    "symbol": "FHEUSDT",
+    "base": "fhe",
+    "quote": "USDT"
+  },
+  {
+    "symbol": "FIDAUSDT",
+    "base": "fida",
+    "quote": "USDT"
+  },
+  {
+    "symbol": "FILUSDT",
+    "base": "fil",
+    "quote": "USDT"
+  },
+  {
+    "symbol": "FIOUSDT",
+    "base": "fio",
+    "quote": "USDT"
+  },
+  {
+    "symbol": "FLOCKUSDT",
+    "base": "flock",
+    "quote": "USDT"
+  },
+  {
+    "symbol": "FLOWUSDT",
+    "base": "flow",
+    "quote": "USDT"
+  },
+  {
+    "symbol": "FLUIDUSDT",
+    "base": "fluid",
+    "quote": "USDT"
+  },
+  {
+    "symbol": "FLUXUSDT",
+    "base": "flux",
+    "quote": "USDT"
+  },
+  {
+    "symbol": "FOLKSUSDT",
+    "base": "folks",
+    "quote": "USDT"
+  },
+  {
+    "symbol": "FORMUSDT",
+    "base": "form",
+    "quote": "USDT"
+  },
+  {
+    "symbol": "FORTHUSDT",
+    "base": "forth",
+    "quote": "USDT"
+  },
+  {
+    "symbol": "FUNUSDT",
+    "base": "fun",
+    "quote": "USDT"
+  },
+  {
+    "symbol": "FUSDT",
+    "base": "f",
+    "quote": "USDT"
+  },
+  {
+    "symbol": "FXSUSDT",
+    "base": "fxs",
+    "quote": "USDT"
+  },
+  {
+    "symbol": "GALAUSDT",
+    "base": "gala",
+    "quote": "USDT"
+  },
+  {
+    "symbol": "GASUSDT",
+    "base": "gas",
+    "quote": "USDT"
+  },
+  {
+    "symbol": "GHSTUSDT",
+    "base": "ghst",
+    "quote": "USDT"
+  },
+  {
+    "symbol": "GIGGLEUSDT",
+    "base": "giggle",
+    "quote": "USDT"
+  },
+  {
+    "symbol": "GLMUSDT",
+    "base": "glm",
+    "quote": "USDT"
+  },
+  {
+    "symbol": "GMTUSDT",
+    "base": "gmt",
+    "quote": "USDT"
+  },
+  {
+    "symbol": "GMXUSDT",
+    "base": "gmx",
+    "quote": "USDT"
+  },
+  {
+    "symbol": "GOATUSDT",
+    "base": "goat",
+    "quote": "USDT"
+  },
+  {
+    "symbol": "GPSUSDT",
+    "base": "gps",
+    "quote": "USDT"
+  },
+  {
+    "symbol": "GRASSUSDT",
+    "base": "grass",
+    "quote": "USDT"
+  },
+  {
+    "symbol": "GRIFFAINUSDT",
+    "base": "griffain",
+    "quote": "USDT"
+  },
+  {
+    "symbol": "GRTUSDT",
+    "base": "grt",
+    "quote": "USDT"
+  },
+  {
+    "symbol": "GTCUSDT",
+    "base": "gtc",
+    "quote": "USDT"
+  },
+  {
+    "symbol": "GUNUSDT",
+    "base": "gun",
+    "quote": "USDT"
+  },
+  {
+    "symbol": "GUSDT",
+    "base": "g",
+    "quote": "USDT"
+  },
+  {
+    "symbol": "HAEDALUSDT",
+    "base": "haedal",
+    "quote": "USDT"
+  },
+  {
+    "symbol": "HANAUSDT",
+    "base": "hana",
+    "quote": "USDT"
+  },
+  {
+    "symbol": "HBARUSDT",
+    "base": "hbar",
+    "quote": "USDT"
+  },
+  {
+    "symbol": "HEIUSDT",
+    "base": "hei",
+    "quote": "USDT"
+  },
+  {
+    "symbol": "HEMIUSDT",
+    "base": "hemi",
+    "quote": "USDT"
+  },
+  {
+    "symbol": "HFTUSDT",
+    "base": "hft",
+    "quote": "USDT"
+  },
+  {
+    "symbol": "HIGHUSDT",
+    "base": "high",
+    "quote": "USDT"
+  },
+  {
+    "symbol": "HIPPOUSDT",
+    "base": "hippo",
+    "quote": "USDT"
+  },
+  {
+    "symbol": "HIVEUSDT",
+    "base": "hive",
+    "quote": "USDT"
+  },
+  {
+    "symbol": "HMSTRUSDT",
+    "base": "hmstr",
+    "quote": "USDT"
+  },
+  {
+    "symbol": "HOLOUSDT",
+    "base": "holo",
+    "quote": "USDT"
+  },
+  {
+    "symbol": "HOMEUSDT",
+    "base": "home",
+    "quote": "USDT"
+  },
+  {
+    "symbol": "HOOKUSDT",
+    "base": "hook",
+    "quote": "USDT"
+  },
+  {
+    "symbol": "HOTUSDT",
+    "base": "hot",
+    "quote": "USDT"
+  },
+  {
+    "symbol": "HUMAUSDT",
+    "base": "huma",
+    "quote": "USDT"
+  },
+  {
+    "symbol": "HUSDT",
+    "base": "h",
+    "quote": "USDT"
+  },
+  {
+    "symbol": "HYPERUSDT",
+    "base": "hyper",
+    "quote": "USDT"
+  },
+  {
+    "symbol": "HYPEUSDT",
+    "base": "hype",
+    "quote": "USDT"
+  },
+  {
+    "symbol": "ICNTUSDT",
+    "base": "icnt",
+    "quote": "USDT"
+  },
+  {
+    "symbol": "ICPUSDT",
+    "base": "icp",
+    "quote": "USDT"
+  },
+  {
+    "symbol": "ICXUSDT",
+    "base": "icx",
+    "quote": "USDT"
+  },
+  {
+    "symbol": "IDOLUSDT",
+    "base": "idol",
+    "quote": "USDT"
+  },
+  {
+    "symbol": "IDUSDT",
+    "base": "id",
+    "quote": "USDT"
+  },
+  {
+    "symbol": "ILVUSDT",
+    "base": "ilv",
+    "quote": "USDT"
+  },
+  {
+    "symbol": "IMXUSDT",
+    "base": "imx",
+    "quote": "USDT"
+  },
+  {
+    "symbol": "INITUSDT",
+    "base": "init",
+    "quote": "USDT"
+  },
+  {
+    "symbol": "INJUSDT",
+    "base": "inj",
+    "quote": "USDT"
+  },
+  {
+    "symbol": "INUSDT",
+    "base": "in",
+    "quote": "USDT"
+  },
+  {
+    "symbol": "IOSTUSDT",
+    "base": "iost",
+    "quote": "USDT"
+  },
+  {
+    "symbol": "IOTAUSDT",
+    "base": "iota",
+    "quote": "USDT"
+  },
+  {
+    "symbol": "IOTXUSDT",
+    "base": "iotx",
+    "quote": "USDT"
+  },
+  {
+    "symbol": "IOUSDT",
+    "base": "io",
+    "quote": "USDT"
+  },
+  {
+    "symbol": "IPUSDT",
+    "base": "ip",
+    "quote": "USDT"
+  },
+  {
+    "symbol": "IRYSUSDT",
+    "base": "irys",
+    "quote": "USDT"
+  },
+  {
+    "symbol": "JASMYUSDT",
+    "base": "jasmy",
+    "quote": "USDT"
+  },
+  {
+    "symbol": "JCTUSDT",
+    "base": "jct",
+    "quote": "USDT"
+  },
+  {
+    "symbol": "JELLYJELLYUSDT",
+    "base": "jellyjelly",
+    "quote": "USDT"
+  },
+  {
+    "symbol": "JOEUSDT",
+    "base": "joe",
+    "quote": "USDT"
+  },
+  {
+    "symbol": "JSTUSDT",
+    "base": "jst",
+    "quote": "USDT"
+  },
+  {
+    "symbol": "JTOUSDT",
+    "base": "jto",
+    "quote": "USDT"
+  },
+  {
+    "symbol": "JUPUSDT",
+    "base": "jup",
+    "quote": "USDT"
+  },
+  {
+    "symbol": "KAIAUSDT",
+    "base": "kaia",
+    "quote": "USDT"
+  },
+  {
+    "symbol": "KAITOUSDT",
+    "base": "kaito",
+    "quote": "USDT"
+  },
+  {
+    "symbol": "KASUSDT",
+    "base": "kas",
+    "quote": "USDT"
+  },
+  {
+    "symbol": "KAVAUSDT",
+    "base": "kava",
+    "quote": "USDT"
+  },
+  {
+    "symbol": "KERNELUSDT",
+    "base": "kernel",
+    "quote": "USDT"
+  },
+  {
+    "symbol": "KGENUSDT",
+    "base": "kgen",
+    "quote": "USDT"
+  },
+  {
+    "symbol": "KITEUSDT",
+    "base": "kite",
+    "quote": "USDT"
+  },
+  {
+    "symbol": "KMNOUSDT",
+    "base": "kmno",
+    "quote": "USDT"
+  },
+  {
+    "symbol": "KNCUSDT",
+    "base": "knc",
+    "quote": "USDT"
+  },
+  {
+    "symbol": "KOMAUSDT",
+    "base": "koma",
+    "quote": "USDT"
+  },
+  {
+    "symbol": "KSMUSDT",
+    "base": "ksm",
+    "quote": "USDT"
+  },
+  {
+    "symbol": "LABUSDT",
+    "base": "lab",
+    "quote": "USDT"
+  },
+  {
+    "symbol": "LAUSDT",
+    "base": "la",
+    "quote": "USDT"
+  },
+  {
+    "symbol": "LAYERUSDT",
+    "base": "layer",
+    "quote": "USDT"
+  },
+  {
+    "symbol": "LDOUSDT",
+    "base": "ldo",
+    "quote": "USDT"
+  },
+  {
+    "symbol": "LIGHTUSDT",
+    "base": "light",
+    "quote": "USDT"
+  },
+  {
+    "symbol": "LINEAUSDT",
+    "base": "linea",
+    "quote": "USDT"
+  },
+  {
+    "symbol": "LINKUSDT",
+    "base": "link",
+    "quote": "USDT"
+  },
+  {
+    "symbol": "LISTAUSDT",
+    "base": "lista",
+    "quote": "USDT"
+  },
+  {
+    "symbol": "LPTUSDT",
+    "base": "lpt",
+    "quote": "USDT"
+  },
+  {
+    "symbol": "LQTYUSDT",
+    "base": "lqty",
+    "quote": "USDT"
+  },
+  {
+    "symbol": "LRCUSDT",
+    "base": "lrc",
+    "quote": "USDT"
+  },
+  {
+    "symbol": "LSKUSDT",
+    "base": "lsk",
+    "quote": "USDT"
+  },
+  {
+    "symbol": "LTCUSDT",
+    "base": "ltc",
+    "quote": "USDT"
+  },
+  {
+    "symbol": "LUMIAUSDT",
+    "base": "lumia",
+    "quote": "USDT"
+  },
+  {
+    "symbol": "LUNA2USDT",
+    "base": "luna2",
+    "quote": "USDT"
+  },
+  {
+    "symbol": "LYNUSDT",
+    "base": "lyn",
+    "quote": "USDT"
+  },
+  {
+    "symbol": "MAGICUSDT",
+    "base": "magic",
+    "quote": "USDT"
+  },
+  {
+    "symbol": "MANAUSDT",
+    "base": "mana",
+    "quote": "USDT"
+  },
+  {
+    "symbol": "MANTAUSDT",
+    "base": "manta",
+    "quote": "USDT"
+  },
+  {
+    "symbol": "MASKUSDT",
+    "base": "mask",
+    "quote": "USDT"
+  },
+  {
+    "symbol": "MAVIAUSDT",
+    "base": "mavia",
+    "quote": "USDT"
+  },
+  {
+    "symbol": "MAVUSDT",
+    "base": "mav",
+    "quote": "USDT"
+  },
+  {
+    "symbol": "MBOXUSDT",
+    "base": "mbox",
+    "quote": "USDT"
+  },
+  {
+    "symbol": "MELANIAUSDT",
+    "base": "melania",
+    "quote": "USDT"
+  },
+  {
+    "symbol": "MEMEUSDT",
+    "base": "meme",
+    "quote": "USDT"
+  },
+  {
+    "symbol": "MERLUSDT",
+    "base": "merl",
+    "quote": "USDT"
+  },
+  {
+    "symbol": "METISUSDT",
+    "base": "metis",
+    "quote": "USDT"
+  },
+  {
+    "symbol": "METUSDT",
+    "base": "met",
+    "quote": "USDT"
+  },
+  {
+    "symbol": "MEUSDT",
+    "base": "me",
+    "quote": "USDT"
+  },
+  {
+    "symbol": "MEWUSDT",
+    "base": "mew",
+    "quote": "USDT"
+  },
+  {
+    "symbol": "MINAUSDT",
+    "base": "mina",
+    "quote": "USDT"
+  },
+  {
+    "symbol": "MIRAUSDT",
+    "base": "mira",
+    "quote": "USDT"
+  },
+  {
+    "symbol": "MITOUSDT",
+    "base": "mito",
+    "quote": "USDT"
+  },
+  {
+    "symbol": "MLNUSDT",
+    "base": "mln",
+    "quote": "USDT"
+  },
+  {
+    "symbol": "MMTUSDT",
+    "base": "mmt",
+    "quote": "USDT"
+  },
+  {
+    "symbol": "MOCAUSDT",
+    "base": "moca",
+    "quote": "USDT"
+  },
+  {
+    "symbol": "MONUSDT",
+    "base": "mon",
+    "quote": "USDT"
+  },
+  {
+    "symbol": "MOODENGUSDT",
+    "base": "moodeng",
+    "quote": "USDT"
+  },
+  {
+    "symbol": "MORPHOUSDT",
+    "base": "morpho",
+    "quote": "USDT"
+  },
+  {
+    "symbol": "MOVEUSDT",
+    "base": "move",
+    "quote": "USDT"
+  },
+  {
+    "symbol": "MOVRUSDT",
+    "base": "movr",
+    "quote": "USDT"
+  },
+  {
+    "symbol": "MTLUSDT",
+    "base": "mtl",
+    "quote": "USDT"
+  },
+  {
+    "symbol": "MUBARAKUSDT",
+    "base": "mubarak",
+    "quote": "USDT"
+  },
+  {
+    "symbol": "MUSDT",
+    "base": "m",
+    "quote": "USDT"
+  },
+  {
+    "symbol": "MYXUSDT",
+    "base": "myx",
+    "quote": "USDT"
+  },
+  {
+    "symbol": "NAORISUSDT",
+    "base": "naoris",
+    "quote": "USDT"
+  },
+  {
+    "symbol": "NEARUSDT",
+    "base": "near",
+    "quote": "USDT"
+  },
+  {
+    "symbol": "NEIROUSDT",
+    "base": "neiro",
+    "quote": "USDT"
+  },
+  {
+    "symbol": "NEOUSDT",
+    "base": "neo",
+    "quote": "USDT"
+  },
+  {
+    "symbol": "NEWTUSDT",
+    "base": "newt",
+    "quote": "USDT"
+  },
+  {
+    "symbol": "NFPUSDT",
+    "base": "nfp",
+    "quote": "USDT"
+  },
+  {
+    "symbol": "NIGHTUSDT",
+    "base": "night",
+    "quote": "USDT"
+  },
+  {
+    "symbol": "NILUSDT",
+    "base": "nil",
+    "quote": "USDT"
+  },
+  {
+    "symbol": "NKNUSDT",
+    "base": "nkn",
+    "quote": "USDT"
+  },
+  {
+    "symbol": "NMRUSDT",
+    "base": "nmr",
+    "quote": "USDT"
+  },
+  {
+    "symbol": "NOMUSDT",
+    "base": "nom",
+    "quote": "USDT"
+  },
+  {
+    "symbol": "NOTUSDT",
+    "base": "not",
+    "quote": "USDT"
+  },
+  {
+    "symbol": "NTRNUSDT",
+    "base": "ntrn",
+    "quote": "USDT"
+  },
+  {
+    "symbol": "NXPCUSDT",
+    "base": "nxpc",
+    "quote": "USDT"
+  },
+  {
+    "symbol": "OGNUSDT",
+    "base": "ogn",
+    "quote": "USDT"
+  },
+  {
+    "symbol": "OGUSDT",
+    "base": "og",
+    "quote": "USDT"
+  },
+  {
+    "symbol": "OLUSDT",
+    "base": "ol",
+    "quote": "USDT"
+  },
+  {
+    "symbol": "OMUSDT",
+    "base": "om",
+    "quote": "USDT"
+  },
+  {
+    "symbol": "ONDOUSDT",
+    "base": "ondo",
+    "quote": "USDT"
+  },
+  {
+    "symbol": "ONEUSDT",
+    "base": "one",
+    "quote": "USDT"
+  },
+  {
+    "symbol": "ONGUSDT",
+    "base": "ong",
+    "quote": "USDT"
+  },
+  {
+    "symbol": "ONTUSDT",
+    "base": "ont",
+    "quote": "USDT"
+  },
+  {
+    "symbol": "ONUSDT",
+    "base": "on",
+    "quote": "USDT"
+  },
+  {
+    "symbol": "OPENUSDT",
+    "base": "open",
+    "quote": "USDT"
+  },
+  {
+    "symbol": "OPUSDT",
+    "base": "op",
+    "quote": "USDT"
+  },
+  {
+    "symbol": "ORCAUSDT",
+    "base": "orca",
+    "quote": "USDT"
+  },
+  {
+    "symbol": "ORDERUSDT",
+    "base": "order",
+    "quote": "USDT"
+  },
+  {
+    "symbol": "ORDIUSDT",
+    "base": "ordi",
+    "quote": "USDT"
+  },
+  {
+    "symbol": "OXTUSDT",
+    "base": "oxt",
+    "quote": "USDT"
+  },
+  {
+    "symbol": "PARTIUSDT",
+    "base": "parti",
+    "quote": "USDT"
+  },
+  {
+    "symbol": "PAXGUSDT",
+    "base": "paxg",
+    "quote": "USDT"
+  },
+  {
+    "symbol": "PENDLEUSDT",
+    "base": "pendle",
+    "quote": "USDT"
+  },
+  {
+    "symbol": "PENGUUSDT",
+    "base": "pengu",
+    "quote": "USDT"
+  },
+  {
+    "symbol": "PEOPLEUSDT",
+    "base": "people",
+    "quote": "USDT"
+  },
+  {
+    "symbol": "PHAUSDT",
+    "base": "pha",
+    "quote": "USDT"
+  },
+  {
+    "symbol": "PHBUSDT",
+    "base": "phb",
+    "quote": "USDT"
+  },
+  {
+    "symbol": "PIEVERSEUSDT",
+    "base": "pieverse",
+    "quote": "USDT"
+  },
+  {
+    "symbol": "PIPPINUSDT",
+    "base": "pippin",
+    "quote": "USDT"
+  },
+  {
+    "symbol": "PIXELUSDT",
+    "base": "pixel",
+    "quote": "USDT"
+  },
+  {
+    "symbol": "PLAYUSDT",
+    "base": "play",
+    "quote": "USDT"
+  },
+  {
+    "symbol": "PLUMEUSDT",
+    "base": "plume",
+    "quote": "USDT"
+  },
+  {
+    "symbol": "PNUTUSDT",
+    "base": "pnut",
+    "quote": "USDT"
+  },
+  {
+    "symbol": "POLUSDT",
+    "base": "pol",
+    "quote": "USDT"
+  },
+  {
+    "symbol": "POLYXUSDT",
+    "base": "polyx",
+    "quote": "USDT"
+  },
+  {
+    "symbol": "POPCATUSDT",
+    "base": "popcat",
+    "quote": "USDT"
+  },
+  {
+    "symbol": "PORTALUSDT",
+    "base": "portal",
+    "quote": "USDT"
+  },
+  {
+    "symbol": "POWERUSDT",
+    "base": "power",
+    "quote": "USDT"
+  },
+  {
+    "symbol": "POWRUSDT",
+    "base": "powr",
+    "quote": "USDT"
+  },
+  {
+    "symbol": "PROMPTUSDT",
+    "base": "prompt",
+    "quote": "USDT"
+  },
+  {
+    "symbol": "PROMUSDT",
+    "base": "prom",
+    "quote": "USDT"
+  },
+  {
+    "symbol": "PROVEUSDT",
+    "base": "prove",
+    "quote": "USDT"
+  },
+  {
+    "symbol": "PTBUSDT",
+    "base": "ptb",
+    "quote": "USDT"
+  },
+  {
+    "symbol": "PUFFERUSDT",
+    "base": "puffer",
+    "quote": "USDT"
+  },
+  {
+    "symbol": "PUMPBTCUSDT",
+    "base": "pumpbtc",
+    "quote": "USDT"
+  },
+  {
+    "symbol": "PUMPUSDT",
+    "base": "pump",
+    "quote": "USDT"
+  },
+  {
+    "symbol": "PUNDIXUSDT",
+    "base": "pundix",
+    "quote": "USDT"
+  },
+  {
+    "symbol": "PYTHUSDT",
+    "base": "pyth",
+    "quote": "USDT"
+  },
+  {
+    "symbol": "QNTUSDT",
+    "base": "qnt",
+    "quote": "USDT"
+  },
+  {
+    "symbol": "QTUMUSDT",
+    "base": "qtum",
+    "quote": "USDT"
+  },
+  {
+    "symbol": "QUSDT",
+    "base": "q",
+    "quote": "USDT"
+  },
+  {
+    "symbol": "RAREUSDT",
+    "base": "rare",
+    "quote": "USDT"
+  },
+  {
+    "symbol": "RAVEUSDT",
+    "base": "rave",
+    "quote": "USDT"
+  },
+  {
+    "symbol": "RAYSOLUSDT",
+    "base": "raysol",
+    "quote": "USDT"
+  },
+  {
+    "symbol": "RDNTUSDT",
+    "base": "rdnt",
+    "quote": "USDT"
+  },
+  {
+    "symbol": "RECALLUSDT",
+    "base": "recall",
+    "quote": "USDT"
+  },
+  {
+    "symbol": "REDUSDT",
+    "base": "red",
+    "quote": "USDT"
+  },
+  {
+    "symbol": "RENDERUSDT",
+    "base": "render",
+    "quote": "USDT"
+  },
+  {
+    "symbol": "RESOLVUSDT",
+    "base": "resolv",
+    "quote": "USDT"
+  },
+  {
+    "symbol": "REZUSDT",
+    "base": "rez",
+    "quote": "USDT"
+  },
+  {
+    "symbol": "RIFUSDT",
+    "base": "rif",
+    "quote": "USDT"
+  },
+  {
+    "symbol": "RIVERUSDT",
+    "base": "river",
+    "quote": "USDT"
+  },
+  {
+    "symbol": "RLCUSDT",
+    "base": "rlc",
+    "quote": "USDT"
+  },
+  {
+    "symbol": "RLSUSDT",
+    "base": "rls",
+    "quote": "USDT"
+  },
+  {
+    "symbol": "RONINUSDT",
+    "base": "ronin",
+    "quote": "USDT"
+  },
+  {
+    "symbol": "ROSEUSDT",
+    "base": "rose",
+    "quote": "USDT"
+  },
+  {
+    "symbol": "RPLUSDT",
+    "base": "rpl",
+    "quote": "USDT"
+  },
+  {
+    "symbol": "RSRUSDT",
+    "base": "rsr",
+    "quote": "USDT"
+  },
+  {
+    "symbol": "RUNEUSDT",
+    "base": "rune",
+    "quote": "USDT"
+  },
+  {
+    "symbol": "RVNUSDT",
+    "base": "rvn",
+    "quote": "USDT"
+  },
+  {
+    "symbol": "RVVUSDT",
+    "base": "rvv",
+    "quote": "USDT"
+  },
+  {
+    "symbol": "SAFEUSDT",
+    "base": "safe",
+    "quote": "USDT"
+  },
+  {
+    "symbol": "SAGAUSDT",
+    "base": "saga",
+    "quote": "USDT"
+  },
+  {
+    "symbol": "SAHARAUSDT",
+    "base": "sahara",
+    "quote": "USDT"
+  },
+  {
+    "symbol": "SANDUSDT",
+    "base": "sand",
+    "quote": "USDT"
+  },
+  {
+    "symbol": "SANTOSUSDT",
+    "base": "santos",
+    "quote": "USDT"
+  },
+  {
+    "symbol": "SAPIENUSDT",
+    "base": "sapien",
+    "quote": "USDT"
+  },
+  {
+    "symbol": "SCRTUSDT",
+    "base": "scrt",
+    "quote": "USDT"
+  },
+  {
+    "symbol": "SCRUSDT",
+    "base": "scr",
+    "quote": "USDT"
+  },
+  {
+    "symbol": "SEIUSDT",
+    "base": "sei",
+    "quote": "USDT"
+  },
+  {
+    "symbol": "SENTUSDT",
+    "base": "sent",
+    "quote": "USDT"
+  },
+  {
+    "symbol": "SFPUSDT",
+    "base": "sfp",
+    "quote": "USDT"
+  },
+  {
+    "symbol": "SHELLUSDT",
+    "base": "shell",
+    "quote": "USDT"
+  },
+  {
+    "symbol": "SIGNUSDT",
+    "base": "sign",
+    "quote": "USDT"
+  },
+  {
+    "symbol": "SIRENUSDT",
+    "base": "siren",
+    "quote": "USDT"
+  },
+  {
+    "symbol": "SKLUSDT",
+    "base": "skl",
+    "quote": "USDT"
+  },
+  {
+    "symbol": "SKYAIUSDT",
+    "base": "skyai",
+    "quote": "USDT"
+  },
+  {
+    "symbol": "SKYUSDT",
+    "base": "sky",
+    "quote": "USDT"
+  },
+  {
+    "symbol": "SLPUSDT",
+    "base": "slp",
+    "quote": "USDT"
+  },
+  {
+    "symbol": "SNXUSDT",
+    "base": "snx",
+    "quote": "USDT"
+  },
+  {
+    "symbol": "SOLUSDT",
+    "base": "sol",
+    "quote": "USDT"
+  },
+  {
+    "symbol": "SOLVUSDT",
+    "base": "solv",
+    "quote": "USDT"
+  },
+  {
+    "symbol": "SOMIUSDT",
+    "base": "somi",
+    "quote": "USDT"
+  },
+  {
+    "symbol": "SONICUSDT",
+    "base": "sonic",
+    "quote": "USDT"
+  },
+  {
+    "symbol": "SOONUSDT",
+    "base": "soon",
+    "quote": "USDT"
+  },
+  {
+    "symbol": "SOPHUSDT",
+    "base": "soph",
+    "quote": "USDT"
+  },
+  {
+    "symbol": "SPELLUSDT",
+    "base": "spell",
+    "quote": "USDT"
+  },
+  {
+    "symbol": "SPKUSDT",
+    "base": "spk",
+    "quote": "USDT"
+  },
+  {
+    "symbol": "SPXUSDT",
+    "base": "spx",
+    "quote": "USDT"
+  },
+  {
+    "symbol": "SQDUSDT",
+    "base": "sqd",
+    "quote": "USDT"
+  },
+  {
+    "symbol": "SSVUSDT",
+    "base": "ssv",
+    "quote": "USDT"
+  },
+  {
+    "symbol": "STABLEUSDT",
+    "base": "stable",
+    "quote": "USDT"
+  },
+  {
+    "symbol": "STBLUSDT",
+    "base": "stbl",
+    "quote": "USDT"
+  },
+  {
+    "symbol": "STEEMUSDT",
+    "base": "steem",
+    "quote": "USDT"
+  },
+  {
+    "symbol": "STGUSDT",
+    "base": "stg",
+    "quote": "USDT"
+  },
+  {
+    "symbol": "STORJUSDT",
+    "base": "storj",
+    "quote": "USDT"
+  },
+  {
+    "symbol": "STOUSDT",
+    "base": "sto",
+    "quote": "USDT"
+  },
+  {
+    "symbol": "STRKUSDT",
+    "base": "strk",
+    "quote": "USDT"
+  },
+  {
+    "symbol": "STXUSDT",
+    "base": "stx",
+    "quote": "USDT"
+  },
+  {
+    "symbol": "SUIUSDT",
+    "base": "sui",
+    "quote": "USDT"
+  },
+  {
+    "symbol": "SUNUSDT",
+    "base": "sun",
+    "quote": "USDT"
+  },
+  {
+    "symbol": "SUPERUSDT",
+    "base": "super",
+    "quote": "USDT"
+  },
+  {
+    "symbol": "SUSDT",
+    "base": "s",
+    "quote": "USDT"
+  },
+  {
+    "symbol": "SUSHIUSDT",
+    "base": "sushi",
+    "quote": "USDT"
+  },
+  {
+    "symbol": "SWARMSUSDT",
+    "base": "swarms",
+    "quote": "USDT"
+  },
+  {
+    "symbol": "SXTUSDT",
+    "base": "sxt",
+    "quote": "USDT"
+  },
+  {
+    "symbol": "SYNUSDT",
+    "base": "syn",
+    "quote": "USDT"
+  },
+  {
+    "symbol": "SYRUPUSDT",
+    "base": "syrup",
+    "quote": "USDT"
+  },
+  {
+    "symbol": "SYSUSDT",
+    "base": "sys",
+    "quote": "USDT"
+  },
+  {
+    "symbol": "TACUSDT",
+    "base": "tac",
+    "quote": "USDT"
+  },
+  {
+    "symbol": "TAGUSDT",
+    "base": "tag",
+    "quote": "USDT"
+  },
+  {
+    "symbol": "TAIKOUSDT",
+    "base": "taiko",
+    "quote": "USDT"
+  },
+  {
+    "symbol": "TAKEUSDT",
+    "base": "take",
+    "quote": "USDT"
+  },
+  {
+    "symbol": "TANSSIUSDT",
+    "base": "tanssi",
+    "quote": "USDT"
+  },
+  {
+    "symbol": "TAOUSDT",
+    "base": "tao",
+    "quote": "USDT"
+  },
+  {
+    "symbol": "TAUSDT",
+    "base": "ta",
+    "quote": "USDT"
+  },
+  {
+    "symbol": "THETAUSDT",
+    "base": "theta",
+    "quote": "USDT"
+  },
+  {
+    "symbol": "THEUSDT",
+    "base": "the",
+    "quote": "USDT"
+  },
+  {
+    "symbol": "TIAUSDT",
+    "base": "tia",
+    "quote": "USDT"
+  },
+  {
+    "symbol": "TLMUSDT",
+    "base": "tlm",
+    "quote": "USDT"
+  },
+  {
+    "symbol": "TNSRUSDT",
+    "base": "tnsr",
+    "quote": "USDT"
+  },
+  {
+    "symbol": "TONUSDT",
+    "base": "ton",
+    "quote": "USDT"
+  },
+  {
+    "symbol": "TOSHIUSDT",
+    "base": "toshi",
+    "quote": "USDT"
+  },
+  {
+    "symbol": "TOWNSUSDT",
+    "base": "towns",
+    "quote": "USDT"
+  },
+  {
+    "symbol": "TRADOORUSDT",
+    "base": "tradoor",
+    "quote": "USDT"
+  },
+  {
+    "symbol": "TRBUSDT",
+    "base": "trb",
+    "quote": "USDT"
+  },
+  {
+    "symbol": "TREEUSDT",
+    "base": "tree",
+    "quote": "USDT"
+  },
+  {
+    "symbol": "TRUMPUSDT",
+    "base": "trump",
+    "quote": "USDT"
+  },
+  {
+    "symbol": "TRUSTUSDT",
+    "base": "trust",
+    "quote": "USDT"
+  },
+  {
+    "symbol": "TRUTHUSDT",
+    "base": "truth",
+    "quote": "USDT"
+  },
+  {
+    "symbol": "TRUUSDT",
+    "base": "tru",
+    "quote": "USDT"
+  },
+  {
+    "symbol": "TRXUSDT",
+    "base": "trx",
+    "quote": "USDT"
+  },
+  {
+    "symbol": "TSTUSDT",
+    "base": "tst",
+    "quote": "USDT"
+  },
+  {
+    "symbol": "TURBOUSDT",
+    "base": "turbo",
+    "quote": "USDT"
+  },
+  {
+    "symbol": "TURTLEUSDT",
+    "base": "turtle",
+    "quote": "USDT"
+  },
+  {
+    "symbol": "TUSDT",
+    "base": "t",
+    "quote": "USDT"
+  },
+  {
+    "symbol": "TUTUSDT",
+    "base": "tut",
+    "quote": "USDT"
+  },
+  {
+    "symbol": "TWTUSDT",
+    "base": "twt",
+    "quote": "USDT"
+  },
+  {
+    "symbol": "UAIUSDT",
+    "base": "uai",
+    "quote": "USDT"
+  },
+  {
+    "symbol": "UBUSDT",
+    "base": "ub",
+    "quote": "USDT"
+  },
+  {
+    "symbol": "UMAUSDT",
+    "base": "uma",
+    "quote": "USDT"
+  },
+  {
+    "symbol": "UNIUSDT",
+    "base": "uni",
+    "quote": "USDT"
+  },
+  {
+    "symbol": "USDCUSDT",
+    "base": "usdc",
+    "quote": "USDT"
+  },
+  {
+    "symbol": "USELESSUSDT",
+    "base": "useless",
+    "quote": "USDT"
+  },
+  {
+    "symbol": "USTCUSDT",
+    "base": "ustc",
+    "quote": "USDT"
+  },
+  {
+    "symbol": "USUALUSDT",
+    "base": "usual",
+    "quote": "USDT"
+  },
+  {
+    "symbol": "USUSDT",
+    "base": "us",
+    "quote": "USDT"
+  },
+  {
+    "symbol": "VANAUSDT",
+    "base": "vana",
+    "quote": "USDT"
+  },
+  {
+    "symbol": "VANRYUSDT",
+    "base": "vanry",
+    "quote": "USDT"
+  },
+  {
+    "symbol": "VELODROMEUSDT",
+    "base": "velodrome",
+    "quote": "USDT"
+  },
+  {
+    "symbol": "VELVETUSDT",
+    "base": "velvet",
+    "quote": "USDT"
+  },
+  {
+    "symbol": "VETUSDT",
+    "base": "vet",
+    "quote": "USDT"
+  },
+  {
+    "symbol": "VFYUSDT",
+    "base": "vfy",
+    "quote": "USDT"
+  },
+  {
+    "symbol": "VICUSDT",
+    "base": "vic",
+    "quote": "USDT"
+  },
+  {
+    "symbol": "VINEUSDT",
+    "base": "vine",
+    "quote": "USDT"
+  },
+  {
+    "symbol": "VIRTUALUSDT",
+    "base": "virtual",
+    "quote": "USDT"
+  },
+  {
+    "symbol": "VTHOUSDT",
+    "base": "vtho",
+    "quote": "USDT"
+  },
+  {
+    "symbol": "VVVUSDT",
+    "base": "vvv",
+    "quote": "USDT"
+  },
+  {
+    "symbol": "WALUSDT",
+    "base": "wal",
+    "quote": "USDT"
+  },
+  {
+    "symbol": "WAXPUSDT",
+    "base": "waxp",
+    "quote": "USDT"
+  },
+  {
+    "symbol": "WCTUSDT",
+    "base": "wct",
+    "quote": "USDT"
+  },
+  {
+    "symbol": "WETUSDT",
+    "base": "wet",
+    "quote": "USDT"
+  },
+  {
+    "symbol": "WIFUSDT",
+    "base": "wif",
+    "quote": "USDT"
+  },
+  {
+    "symbol": "WLDUSDT",
+    "base": "wld",
+    "quote": "USDT"
+  },
+  {
+    "symbol": "WLFIUSDT",
+    "base": "wlfi",
+    "quote": "USDT"
+  },
+  {
+    "symbol": "WOOUSDT",
+    "base": "woo",
+    "quote": "USDT"
+  },
+  {
+    "symbol": "WUSDT",
+    "base": "w",
+    "quote": "USDT"
+  },
+  {
+    "symbol": "XAIUSDT",
+    "base": "xai",
+    "quote": "USDT"
+  },
+  {
+    "symbol": "XANUSDT",
+    "base": "xan",
+    "quote": "USDT"
+  },
+  {
+    "symbol": "XLMUSDT",
+    "base": "xlm",
+    "quote": "USDT"
+  },
+  {
+    "symbol": "XMRUSDT",
+    "base": "xmr",
+    "quote": "USDT"
+  },
+  {
+    "symbol": "XNYUSDT",
+    "base": "xny",
+    "quote": "USDT"
+  },
+  {
+    "symbol": "XPINUSDT",
+    "base": "xpin",
+    "quote": "USDT"
+  },
+  {
+    "symbol": "XPLUSDT",
+    "base": "xpl",
+    "quote": "USDT"
+  },
+  {
+    "symbol": "XRPUSDT",
+    "base": "xrp",
+    "quote": "USDT"
+  },
+  {
+    "symbol": "XTZUSDT",
+    "base": "xtz",
+    "quote": "USDT"
+  },
+  {
+    "symbol": "XVGUSDT",
+    "base": "xvg",
+    "quote": "USDT"
+  },
+  {
+    "symbol": "XVSUSDT",
+    "base": "xvs",
+    "quote": "USDT"
+  },
+  {
+    "symbol": "YALAUSDT",
+    "base": "yala",
+    "quote": "USDT"
+  },
+  {
+    "symbol": "YBUSDT",
+    "base": "yb",
+    "quote": "USDT"
+  },
+  {
+    "symbol": "YFIUSDT",
+    "base": "yfi",
+    "quote": "USDT"
+  },
+  {
+    "symbol": "YGGUSDT",
+    "base": "ygg",
+    "quote": "USDT"
+  },
+  {
+    "symbol": "ZBTUSDT",
+    "base": "zbt",
+    "quote": "USDT"
+  },
+  {
+    "symbol": "ZECUSDT",
+    "base": "zec",
+    "quote": "USDT"
+  },
+  {
+    "symbol": "ZENUSDT",
+    "base": "zen",
+    "quote": "USDT"
+  },
+  {
+    "symbol": "ZEREBROUSDT",
+    "base": "zerebro",
+    "quote": "USDT"
+  },
+  {
+    "symbol": "ZETAUSDT",
+    "base": "zeta",
+    "quote": "USDT"
+  },
+  {
+    "symbol": "ZILUSDT",
+    "base": "zil",
+    "quote": "USDT"
+  },
+  {
+    "symbol": "ZKCUSDT",
+    "base": "zkc",
+    "quote": "USDT"
+  },
+  {
+    "symbol": "ZKJUSDT",
+    "base": "zkj",
+    "quote": "USDT"
+  },
+  {
+    "symbol": "ZKUSDT",
+    "base": "zk",
+    "quote": "USDT"
+  },
+  {
+    "symbol": "ZORAUSDT",
+    "base": "zora",
+    "quote": "USDT"
+  },
+  {
+    "symbol": "ZRCUSDT",
+    "base": "zrc",
+    "quote": "USDT"
+  },
+  {
+    "symbol": "ZROUSDT",
+    "base": "zro",
+    "quote": "USDT"
+  },
+  {
+    "symbol": "ZRXUSDT",
+    "base": "zrx",
+    "quote": "USDT"
+  }
+]
